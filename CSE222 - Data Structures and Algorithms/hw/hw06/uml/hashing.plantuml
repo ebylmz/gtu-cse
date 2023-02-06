@@ -1,0 +1,91 @@
+@startuml hashinguml
+
+' =============================== Hash Table ===============================
+interface KWHashMap {
+    + get()
+    + put()
+    + remove()
+    + size()
+    + isEmpty()
+}
+
+class HashTableCoalesced {
+    - EEntry[] table
+    - {static} INIT_CAPACITY
+    - {static} LOAD_THRESHOLD
+    - int numKeys
+    - int primeNum
+}
+
+class HashTableChainingTree {
+    - BinarySearchTree[] table
+    - {static} INIT_CAPACITY
+    - {static} LOAD_THRESHOLD
+    - int numKeys
+}
+
+class Entry {
+    # K key
+    # V value
+    + getKey()
+    + getValue()
+    + setValue()
+}
+
+class CEntry {
+
+}
+
+class EEntry {
+    - int next
+    - int prev
+    + hasNext()
+    + hasPrevious()
+}
+ 
+KWHashMap <|.. HashTableCoalesced
+KWHashMap <|.. HashTableChainingTree
+
+HashTableCoalesced o-- EEntry
+HashTableChainingTree o-- CEntry
+
+Entry <|-- EEntry
+Entry <|-- CEntry
+
+' =============================== BST =============================== 
+
+interface SearchTree {
+    add()
+    contains()
+    find()
+    delete()
+    remove()
+}
+
+class BinarySearchTree {
+    - E theData
+}
+
+class BinaryTree {
+    # Node root
+    + getLeftSubtree()
+    + getRightSubtree()
+    + getData()
+    + isLeaf()
+    + toString()
+    + readBinaryTree()
+}
+
+class Node {
+    # E data
+    # Node parent
+    # Node right
+    # Node left
+} 
+
+BinaryTree o-- Node
+
+SearchTree <|.. BinarySearchTree 
+BinaryTree <|-- BinarySearchTree
+
+@enduml

@@ -1,0 +1,26 @@
+DEPTH = 1024;
+WIDTH = 32;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = BIN;
+CONTENT 
+BEGIN
+
+00 : 001000	1101	1101	0000 0000 0000 0000	00;         -- addi $r13, $r13, 0    // display r13 content
+01 : 001000	1110	1110	0000 0000 0000 0000	00;         -- addi $14, $14, 0      // display 14 content 
+02 : 000100	1101	1110	0000 0000 0000 0100	00;         -- beq $r13, $r14, 0x4   // beq instruction (4 + 1 instruction forward)
+03 : 001000	0011	0011	0000 0000 0000 0000	00;         -- addi $r1, $r1, 0      // display r1 content 
+04 : 0;
+05 : 0;
+06 : 0;
+07 : 000000	0100	0101	0001	0000	100100	0000;   -- and $r1, $r4, $r5     // and instruction 
+08 : 001000	0001	0001	0000 0000 0000 0000	00;         -- addi $r1, $r1, 0      // display r1 content
+09 : 000000	0010	0011	0001	0000	000000	0000;   -- sll $r1, $r2, $r3     // sll instruction 
+0A : 0;
+0B : 0;
+0C : 0;
+0D : 0;
+0E : 0;
+0F : 0;
+10 : 0;
+
+END;

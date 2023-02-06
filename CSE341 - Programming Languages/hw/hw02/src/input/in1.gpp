@@ -1,0 +1,7 @@
+(deffun sum (x y) 
+    (+ x y) 
+) 
+
+(deffun my_concat (first second) 
+    (concat (, first second)) 
+) 

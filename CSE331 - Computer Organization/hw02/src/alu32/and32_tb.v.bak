@@ -1,0 +1,21 @@
+module and32_tb();
+
+	reg A, B; 	// inputs are declared as register
+	wire Y;  	// outputs are declared as wire
+
+	and32 t(Y, A, B);
+	
+	initial 
+		begin
+			assign A = 0;
+			assign B = 0;
+			#20 assign A = 1;
+			#20 assign B = 1;
+			#20 assign A = 0;
+			#20 assign A = 1;
+			#20 assign B = 0;
+						
+			$finish
+		end
+	
+endmodule 

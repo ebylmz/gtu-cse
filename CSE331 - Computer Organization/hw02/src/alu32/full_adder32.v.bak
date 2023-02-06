@@ -1,0 +1,8 @@
+module add32(Y, A, B, C);
+	
+	input[31:0] A, B
+	input C;
+	
+	
+	
+endmodule 

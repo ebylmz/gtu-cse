@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at datapath.v(21): always construct contains both blocking and non-blocking assignments File: D:/intelFPGA_lite/18.1/workspace/alu32/datapath.v Line: 21

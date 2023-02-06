@@ -1,0 +1,26 @@
+;; TEST CASES
+;; Expressions (+, -, *, /, >, =)
+;; Binary values and expressions (and, or, not) 
+;; Control Statements (If, while)
+;; Definitions (defvar, deffun)
+
+;; modification on current grammer to evaluate EXPI as a INPUT statement
+;; Yacc interpreter does not include this modification
+
+(+ 1f4 5f3)
+(defvar a (+ 3f1 7f1))
+
+(deffun my_func (x) ((* 2f4 1f4)))
+
+(defvar b 12f3)
+(= a b)
+(set b 3f4)
+(defvar c (if (> a b) ((* a a)) ((* b b))))
+(* a b)
+(+ 3f5 a)
+(* b 4f1)
+(* b 4f1)
+(while true ((set a (* b c))))
+(not false)  
+(and false true)
+(or true false)

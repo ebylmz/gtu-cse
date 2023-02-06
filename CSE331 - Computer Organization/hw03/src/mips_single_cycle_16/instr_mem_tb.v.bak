@@ -1,0 +1,12 @@
+module instr_mem_tb();
+
+	reg [9:0] address;
+	reg clock = 1'b0;
+	wire [31:0] instr;
+
+	instr_mem _instr_mem(
+		.address(pc),
+		.clock(clock),
+		.q(instr));
+
+endmodule

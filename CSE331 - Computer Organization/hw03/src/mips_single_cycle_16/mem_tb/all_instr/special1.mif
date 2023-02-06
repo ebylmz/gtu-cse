@@ -1,0 +1,26 @@
+DEPTH = 1024;
+WIDTH = 32;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = BIN;
+CONTENT 
+BEGIN
+
+00 : 100011	0011	0001	0000 0000 0000 0010	00; -- lw $r1, 2($r3)        // get mem content
+01 : 001000	0001	0001	0000 0000 0010 0000	00; -- addi $r1, $r1, 32     // display mem content
+02 : 101011	0011	0001	0000 0000 0000 0010	00; -- sw $r1, 2($r3)        // store r1 content 
+03 : 001000	0100	0100	0000 0000 0000 0000	00; -- addi $r4, $r4, 0      // display mem content
+04 : 100011	0011	0100	0000 0000 0000 0010	00; -- lw $r4, 2($r3)        // get mem content 
+05 : 001000	0100	0100	0000 0000 0000 0000	00; -- addi $r4, $r4, 0      // display mem content
+06 : 0; 
+07 : 0; 
+08 : 0;
+09 : 0; 
+0A : 0;
+0B : 0;
+0C : 0;
+0D : 0;
+0E : 0;
+0F : 0;
+10 : 0;
+
+END;

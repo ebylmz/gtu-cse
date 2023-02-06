@@ -1,0 +1,10 @@
+module mux8to1(Y, S, I0, I1, I2, I3, I4, I5, I6, I7);
+
+	output[31:0] Y;
+	input [2:0] S;
+	input[31:0] I0, I1, I2, I3, I4, I5, I6, I7;
+	
+
+	mux2to1();
+
+endmodule;

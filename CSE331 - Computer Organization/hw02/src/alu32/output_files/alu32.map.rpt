@@ -1,0 +1,606 @@
+Analysis & Synthesis report for alu32
+Fri Dec 09 23:42:34 2022
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Port Connectivity Checks: "mux8to1_32:m"
+ 11. Port Connectivity Checks: "mult32:g0|datapath:d0|or32:o"
+ 12. Port Connectivity Checks: "mult32:g0|add32:a0"
+ 13. Post-Synthesis Netlist Statistics for Top Partition
+ 14. Elapsed Time Per Partition
+ 15. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Fri Dec 09 23:42:34 2022       ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                   ; alu32                                       ;
+; Top-level Entity Name           ; alu32                                       ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 135                                         ;
+; Total pins                      ; 100                                         ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CEBA4F23C7        ;                    ;
+; Top-level entity name                                                           ; alu32              ; alu32              ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 8           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 8           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-8         ;   0.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                       ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                         ; Library ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------+---------+
+; alu32.v                          ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/18.1/workspace/alu32/alu32.v       ;         ;
+; mult32.v                         ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/18.1/workspace/alu32/mult32.v      ;         ;
+; add32.v                          ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/18.1/workspace/alu32/add32.v       ;         ;
+; control.v                        ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/18.1/workspace/alu32/control.v     ;         ;
+; datapath.v                       ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/18.1/workspace/alu32/datapath.v    ;         ;
+; add4.v                           ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/18.1/workspace/alu32/add4.v        ;         ;
+; add1.v                           ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/18.1/workspace/alu32/add1.v        ;         ;
+; full_adder1.v                    ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/18.1/workspace/alu32/full_adder1.v ;         ;
+; half_adder1.v                    ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/18.1/workspace/alu32/half_adder1.v ;         ;
+; mux2to1.v                        ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/18.1/workspace/alu32/mux2to1.v     ;         ;
+; mux8to1_32.v                     ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/18.1/workspace/alu32/mux8to1_32.v  ;         ;
+; mux2to1_32.v                     ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/18.1/workspace/alu32/mux2to1_32.v  ;         ;
+; and32.v                          ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/18.1/workspace/alu32/and32.v       ;         ;
+; xor32.v                          ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/18.1/workspace/alu32/xor32.v       ;         ;
+; or32.v                           ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/18.1/workspace/alu32/or32.v        ;         ;
+; not32.v                          ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/18.1/workspace/alu32/not32.v       ;         ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimate of Logic utilization (ALMs needed) ; 164       ;
+;                                             ;           ;
+; Combinational ALUT usage for logic          ; 182       ;
+;     -- 7 input functions                    ; 32        ;
+;     -- 6 input functions                    ; 42        ;
+;     -- 5 input functions                    ; 22        ;
+;     -- 4 input functions                    ; 30        ;
+;     -- <=3 input functions                  ; 56        ;
+;                                             ;           ;
+; Dedicated logic registers                   ; 135       ;
+;                                             ;           ;
+; I/O pins                                    ; 100       ;
+;                                             ;           ;
+; Total DSP Blocks                            ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 135       ;
+; Total fan-out                               ; 1478      ;
+; Average fan-out                             ; 2.86      ;
++---------------------------------------------+-----------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                ;
++------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------+-------------+--------------+
+; Compilation Hierarchy Node         ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                     ; Entity Name ; Library Name ;
++------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------+-------------+--------------+
+; |alu32                             ; 182 (2)             ; 135 (0)                   ; 0                 ; 0          ; 100  ; 0            ; |alu32                                                                  ; alu32       ; work         ;
+;    |mult32:g0|                     ; 146 (0)             ; 135 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0                                                        ; mult32      ; work         ;
+;       |add32:a0|                   ; 108 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0                                               ; add32       ; work         ;
+;          |add4:g0|                 ; 11 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g0                                       ; add4        ; work         ;
+;             |add1:g0|              ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g0|add1:g0                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g0|add1:g0|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g0|add1:g0|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g1|              ; 3 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g0|add1:g1                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g0|add1:g1|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g0|add1:g1|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g2|              ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g0|add1:g2                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g0|add1:g2|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g0|add1:g2|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g3|              ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g0|add1:g3                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g0|add1:g3|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g0| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g0|add1:g3|full_adder1:g1|half_adder1:g0 ; half_adder1 ; work         ;
+;                   |half_adder1:g1| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g0|add1:g3|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;          |add4:g1|                 ; 12 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g1                                       ; add4        ; work         ;
+;             |add1:g0|              ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g1|add1:g0                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g1|add1:g0|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g0| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g1|add1:g0|full_adder1:g1|half_adder1:g0 ; half_adder1 ; work         ;
+;                   |half_adder1:g1| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g1|add1:g0|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g1|              ; 3 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g1|add1:g1                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g1|add1:g1|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g1|add1:g1|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g2|              ; 3 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g1|add1:g2                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g1|add1:g2|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g1|add1:g2|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g3|              ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g1|add1:g3                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g1|add1:g3|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g1|add1:g3|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;          |add4:g2|                 ; 15 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g2                                       ; add4        ; work         ;
+;             |add1:g0|              ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g2|add1:g0                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g2|add1:g0|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g0| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g2|add1:g0|full_adder1:g1|half_adder1:g0 ; half_adder1 ; work         ;
+;                   |half_adder1:g1| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g2|add1:g0|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g1|              ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g2|add1:g1                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g2|add1:g1|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g0| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g2|add1:g1|full_adder1:g1|half_adder1:g0 ; half_adder1 ; work         ;
+;                   |half_adder1:g1| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g2|add1:g1|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g2|              ; 3 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g2|add1:g2                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g2|add1:g2|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g2|add1:g2|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g3|              ; 3 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g2|add1:g3                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g2|add1:g3|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g2|add1:g3|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;          |add4:g3|                 ; 14 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g3                                       ; add4        ; work         ;
+;             |add1:g0|              ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g3|add1:g0                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g3|add1:g0|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g3|add1:g0|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g1|              ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g3|add1:g1                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g3|add1:g1|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g0| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g3|add1:g1|full_adder1:g1|half_adder1:g0 ; half_adder1 ; work         ;
+;                   |half_adder1:g1| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g3|add1:g1|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g2|              ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g3|add1:g2                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g3|add1:g2|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g0| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g3|add1:g2|full_adder1:g1|half_adder1:g0 ; half_adder1 ; work         ;
+;                   |half_adder1:g1| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g3|add1:g2|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g3|              ; 3 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g3|add1:g3                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g3|add1:g3|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g3|add1:g3|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;          |add4:g4|                 ; 15 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g4                                       ; add4        ; work         ;
+;             |add1:g0|              ; 3 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g4|add1:g0                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g4|add1:g0|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g4|add1:g0|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g1|              ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g4|add1:g1                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g4|add1:g1|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g4|add1:g1|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g2|              ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g4|add1:g2                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g4|add1:g2|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g0| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g4|add1:g2|full_adder1:g1|half_adder1:g0 ; half_adder1 ; work         ;
+;                   |half_adder1:g1| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g4|add1:g2|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g3|              ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g4|add1:g3                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g4|add1:g3|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g0| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g4|add1:g3|full_adder1:g1|half_adder1:g0 ; half_adder1 ; work         ;
+;                   |half_adder1:g1| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g4|add1:g3|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;          |add4:g5|                 ; 13 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g5                                       ; add4        ; work         ;
+;             |add1:g0|              ; 3 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g5|add1:g0                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g5|add1:g0|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g5|add1:g0|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g1|              ; 3 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g5|add1:g1                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g5|add1:g1|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g5|add1:g1|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g2|              ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g5|add1:g2                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g5|add1:g2|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g5|add1:g2|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g3|              ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g5|add1:g3                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g5|add1:g3|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g0| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g5|add1:g3|full_adder1:g1|half_adder1:g0 ; half_adder1 ; work         ;
+;                   |half_adder1:g1| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g5|add1:g3|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;          |add4:g6|                 ; 14 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g6                                       ; add4        ; work         ;
+;             |add1:g0|              ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g6|add1:g0                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g6|add1:g0|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g0| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g6|add1:g0|full_adder1:g1|half_adder1:g0 ; half_adder1 ; work         ;
+;                   |half_adder1:g1| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g6|add1:g0|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g1|              ; 3 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g6|add1:g1                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g6|add1:g1|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g6|add1:g1|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g2|              ; 3 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g6|add1:g2                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g6|add1:g2|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g6|add1:g2|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g3|              ; 3 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g6|add1:g3                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g6|add1:g3|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g6|add1:g3|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;          |add4:g7|                 ; 14 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g7                                       ; add4        ; work         ;
+;             |add1:g0|              ; 3 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g7|add1:g0                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g7|add1:g0|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g0| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g7|add1:g0|full_adder1:g1|half_adder1:g0 ; half_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g7|add1:g0|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g1|              ; 6 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g7|add1:g1                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 5 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g7|add1:g1|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g0| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g7|add1:g1|full_adder1:g1|half_adder1:g0 ; half_adder1 ; work         ;
+;                   |half_adder1:g1| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g7|add1:g1|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g2|              ; 3 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g7|add1:g2                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g7|add1:g2|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g0| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g7|add1:g2|full_adder1:g1|half_adder1:g0 ; half_adder1 ; work         ;
+;                   |half_adder1:g1| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g7|add1:g2|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;             |add1:g3|              ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g7|add1:g3                               ; add1        ; work         ;
+;                |full_adder1:g1|    ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g7|add1:g3|full_adder1:g1                ; full_adder1 ; work         ;
+;                   |half_adder1:g1| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|add32:a0|add4:g7|add1:g3|full_adder1:g1|half_adder1:g1 ; half_adder1 ; work         ;
+;       |control:c0|                 ; 3 (3)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|control:c0                                             ; control     ; work         ;
+;       |datapath:d0|                ; 7 (7)               ; 133 (133)                 ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|datapath:d0                                            ; datapath    ; work         ;
+;       |mux2to1_32:m0|              ; 27 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0                                          ; mux2to1_32  ; work         ;
+;          |mux2to1:g0|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g0                               ; mux2to1     ; work         ;
+;          |mux2to1:g10|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g10                              ; mux2to1     ; work         ;
+;          |mux2to1:g11|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g11                              ; mux2to1     ; work         ;
+;          |mux2to1:g12|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g12                              ; mux2to1     ; work         ;
+;          |mux2to1:g14|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g14                              ; mux2to1     ; work         ;
+;          |mux2to1:g15|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g15                              ; mux2to1     ; work         ;
+;          |mux2to1:g16|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g16                              ; mux2to1     ; work         ;
+;          |mux2to1:g17|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g17                              ; mux2to1     ; work         ;
+;          |mux2to1:g18|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g18                              ; mux2to1     ; work         ;
+;          |mux2to1:g19|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g19                              ; mux2to1     ; work         ;
+;          |mux2to1:g1|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g1                               ; mux2to1     ; work         ;
+;          |mux2to1:g20|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g20                              ; mux2to1     ; work         ;
+;          |mux2to1:g21|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g21                              ; mux2to1     ; work         ;
+;          |mux2to1:g22|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g22                              ; mux2to1     ; work         ;
+;          |mux2to1:g23|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g23                              ; mux2to1     ; work         ;
+;          |mux2to1:g24|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g24                              ; mux2to1     ; work         ;
+;          |mux2to1:g25|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g25                              ; mux2to1     ; work         ;
+;          |mux2to1:g26|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g26                              ; mux2to1     ; work         ;
+;          |mux2to1:g27|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g27                              ; mux2to1     ; work         ;
+;          |mux2to1:g28|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g28                              ; mux2to1     ; work         ;
+;          |mux2to1:g29|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g29                              ; mux2to1     ; work         ;
+;          |mux2to1:g2|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g2                               ; mux2to1     ; work         ;
+;          |mux2to1:g30|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g30                              ; mux2to1     ; work         ;
+;          |mux2to1:g5|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g5                               ; mux2to1     ; work         ;
+;          |mux2to1:g6|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g6                               ; mux2to1     ; work         ;
+;          |mux2to1:g7|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g7                               ; mux2to1     ; work         ;
+;          |mux2to1:g9|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m0|mux2to1:g9                               ; mux2to1     ; work         ;
+;       |mux2to1_32:m1|              ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m1                                          ; mux2to1_32  ; work         ;
+;          |mux2to1:g0|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mult32:g0|mux2to1_32:m1|mux2to1:g0                               ; mux2to1     ; work         ;
+;    |mux8to1_32:m|                  ; 34 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m                                                     ; mux8to1_32  ; work         ;
+;       |mux2to1_32:g6|              ; 34 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6                                       ; mux2to1_32  ; work         ;
+;          |mux2to1:g0|              ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g0                            ; mux2to1     ; work         ;
+;          |mux2to1:g10|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g10                           ; mux2to1     ; work         ;
+;          |mux2to1:g11|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g11                           ; mux2to1     ; work         ;
+;          |mux2to1:g12|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g12                           ; mux2to1     ; work         ;
+;          |mux2to1:g13|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g13                           ; mux2to1     ; work         ;
+;          |mux2to1:g14|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g14                           ; mux2to1     ; work         ;
+;          |mux2to1:g15|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g15                           ; mux2to1     ; work         ;
+;          |mux2to1:g16|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g16                           ; mux2to1     ; work         ;
+;          |mux2to1:g17|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g17                           ; mux2to1     ; work         ;
+;          |mux2to1:g18|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g18                           ; mux2to1     ; work         ;
+;          |mux2to1:g19|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g19                           ; mux2to1     ; work         ;
+;          |mux2to1:g1|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g1                            ; mux2to1     ; work         ;
+;          |mux2to1:g20|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g20                           ; mux2to1     ; work         ;
+;          |mux2to1:g21|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g21                           ; mux2to1     ; work         ;
+;          |mux2to1:g22|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g22                           ; mux2to1     ; work         ;
+;          |mux2to1:g23|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g23                           ; mux2to1     ; work         ;
+;          |mux2to1:g24|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g24                           ; mux2to1     ; work         ;
+;          |mux2to1:g25|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g25                           ; mux2to1     ; work         ;
+;          |mux2to1:g26|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g26                           ; mux2to1     ; work         ;
+;          |mux2to1:g27|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g27                           ; mux2to1     ; work         ;
+;          |mux2to1:g28|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g28                           ; mux2to1     ; work         ;
+;          |mux2to1:g29|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g29                           ; mux2to1     ; work         ;
+;          |mux2to1:g2|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g2                            ; mux2to1     ; work         ;
+;          |mux2to1:g30|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g30                           ; mux2to1     ; work         ;
+;          |mux2to1:g31|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g31                           ; mux2to1     ; work         ;
+;          |mux2to1:g3|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g3                            ; mux2to1     ; work         ;
+;          |mux2to1:g4|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g4                            ; mux2to1     ; work         ;
+;          |mux2to1:g5|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g5                            ; mux2to1     ; work         ;
+;          |mux2to1:g6|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g6                            ; mux2to1     ; work         ;
+;          |mux2to1:g7|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g7                            ; mux2to1     ; work         ;
+;          |mux2to1:g8|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g8                            ; mux2to1     ; work         ;
+;          |mux2to1:g9|              ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g9                            ; mux2to1     ; work         ;
++------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 135   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 63    ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 96    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                       ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------+
+; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |alu32|mult32:g0|datapath:d0|count[0]            ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 0 LEs                ; 64 LEs                 ; Yes        ; |alu32|mult32:g0|datapath:d0|product[24]         ;
+; 3:1                ; 31 bits   ; 62 LEs        ; 0 LEs                ; 62 LEs                 ; Yes        ; |alu32|mult32:g0|datapath:d0|product[43]         ;
+; 6:1                ; 31 bits   ; 124 LEs       ; 124 LEs              ; 0 LEs                  ; No         ; |alu32|mux8to1_32:m|mux2to1_32:g6|mux2to1:g14|g5 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------+
+
+
++---------------------------------------------+
+; Port Connectivity Checks: "mux8to1_32:m"    ;
++-----------+-------+----------+--------------+
+; Port      ; Type  ; Severity ; Details      ;
++-----------+-------+----------+--------------+
+; I6[31..1] ; Input ; Info     ; Stuck at GND ;
++-----------+-------+----------+--------------+
+
+
++----------------------------------------------------------+
+; Port Connectivity Checks: "mult32:g0|datapath:d0|or32:o" ;
++------+-------+----------+--------------------------------+
+; Port ; Type  ; Severity ; Details                        ;
++------+-------+----------+--------------------------------+
+; B    ; Input ; Info     ; Stuck at GND                   ;
++------+-------+----------+--------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "mult32:g0|add32:a0"                                                                 ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Co   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 135                         ;
+;     ENA               ; 65                          ;
+;     ENA SLD           ; 31                          ;
+;     SLD               ; 32                          ;
+;     plain             ; 7                           ;
+; arriav_lcell_comb     ; 182                         ;
+;     extend            ; 32                          ;
+;         7 data inputs ; 32                          ;
+;     normal            ; 150                         ;
+;         2 data inputs ; 20                          ;
+;         3 data inputs ; 36                          ;
+;         4 data inputs ; 30                          ;
+;         5 data inputs ; 22                          ;
+;         6 data inputs ; 42                          ;
+; boundary_port         ; 100                         ;
+;                       ;                             ;
+; Max LUT depth         ; 15.00                       ;
+; Average LUT depth     ; 8.03                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Fri Dec 09 23:42:17 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alu32 -c alu32
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file alu32.v
+    Info (12023): Found entity 1: alu32 File: D:/intelFPGA_lite/18.1/workspace/alu32/alu32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mult32.v
+    Info (12023): Found entity 1: mult32 File: D:/intelFPGA_lite/18.1/workspace/alu32/mult32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file add32.v
+    Info (12023): Found entity 1: add32 File: D:/intelFPGA_lite/18.1/workspace/alu32/add32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file control.v
+    Info (12023): Found entity 1: control File: D:/intelFPGA_lite/18.1/workspace/alu32/control.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file datapath.v
+    Info (12023): Found entity 1: datapath File: D:/intelFPGA_lite/18.1/workspace/alu32/datapath.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file add4.v
+    Info (12023): Found entity 1: add4 File: D:/intelFPGA_lite/18.1/workspace/alu32/add4.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file add1.v
+    Info (12023): Found entity 1: add1 File: D:/intelFPGA_lite/18.1/workspace/alu32/add1.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file full_adder1.v
+    Info (12023): Found entity 1: full_adder1 File: D:/intelFPGA_lite/18.1/workspace/alu32/full_adder1.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file half_adder1.v
+    Info (12023): Found entity 1: half_adder1 File: D:/intelFPGA_lite/18.1/workspace/alu32/half_adder1.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mux8to1.v
+    Info (12023): Found entity 1: mux8to1 File: D:/intelFPGA_lite/18.1/workspace/alu32/mux8to1.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mux2to1.v
+    Info (12023): Found entity 1: mux2to1 File: D:/intelFPGA_lite/18.1/workspace/alu32/mux2to1.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mux8to1_32.v
+    Info (12023): Found entity 1: mux8to1_32 File: D:/intelFPGA_lite/18.1/workspace/alu32/mux8to1_32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mux2to1_32.v
+    Info (12023): Found entity 1: mux2to1_32 File: D:/intelFPGA_lite/18.1/workspace/alu32/mux2to1_32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file ext32.v
+    Info (12023): Found entity 1: ext32 File: D:/intelFPGA_lite/18.1/workspace/alu32/ext32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file and32.v
+    Info (12023): Found entity 1: and32 File: D:/intelFPGA_lite/18.1/workspace/alu32/and32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file xor32.v
+    Info (12023): Found entity 1: xor32 File: D:/intelFPGA_lite/18.1/workspace/alu32/xor32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file or32.v
+    Info (12023): Found entity 1: or32 File: D:/intelFPGA_lite/18.1/workspace/alu32/or32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file not32.v
+    Info (12023): Found entity 1: not32 File: D:/intelFPGA_lite/18.1/workspace/alu32/not32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file and32_tb.v
+    Info (12023): Found entity 1: and32_tb File: D:/intelFPGA_lite/18.1/workspace/alu32/and32_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file xor32_tb.v
+    Info (12023): Found entity 1: xor32_tb File: D:/intelFPGA_lite/18.1/workspace/alu32/xor32_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file or32_tb.v
+    Info (12023): Found entity 1: or32_tb File: D:/intelFPGA_lite/18.1/workspace/alu32/or32_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file full_adder1_tb.v
+    Info (12023): Found entity 1: full_adder1_tb File: D:/intelFPGA_lite/18.1/workspace/alu32/full_adder1_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file control_tb.v
+    Info (12023): Found entity 1: control_tb File: D:/intelFPGA_lite/18.1/workspace/alu32/control_tb.v Line: 3
+Warning (10274): Verilog HDL macro warning at mult32_tb.v(3): overriding existing definition for macro "DELAY", which was defined in "and32_tb.v", line 2 File: D:/intelFPGA_lite/18.1/workspace/alu32/mult32_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file mult32_tb.v
+    Info (12023): Found entity 1: mult32_tb File: D:/intelFPGA_lite/18.1/workspace/alu32/mult32_tb.v Line: 4
+Warning (10274): Verilog HDL macro warning at add32_tb.v(2): overriding existing definition for macro "DELAY", which was defined in "and32_tb.v", line 2 File: D:/intelFPGA_lite/18.1/workspace/alu32/add32_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file add32_tb.v
+    Info (12023): Found entity 1: add32_tb File: D:/intelFPGA_lite/18.1/workspace/alu32/add32_tb.v Line: 3
+Warning (10274): Verilog HDL macro warning at not32_tb.v(2): overriding existing definition for macro "DELAY", which was defined in "and32_tb.v", line 2 File: D:/intelFPGA_lite/18.1/workspace/alu32/not32_tb.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file not32_tb.v
+    Info (12023): Found entity 1: not32_tb File: D:/intelFPGA_lite/18.1/workspace/alu32/not32_tb.v Line: 3
+Warning (10274): Verilog HDL macro warning at alu32_tb.v(3): overriding existing definition for macro "DELAY", which was defined in "and32_tb.v", line 2 File: D:/intelFPGA_lite/18.1/workspace/alu32/alu32_tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file alu32_tb.v
+    Info (12023): Found entity 1: alu32_tb File: D:/intelFPGA_lite/18.1/workspace/alu32/alu32_tb.v Line: 4
+Info (12127): Elaborating entity "alu32" for the top level hierarchy
+Info (12128): Elaborating entity "mult32" for hierarchy "mult32:g0" File: D:/intelFPGA_lite/18.1/workspace/alu32/alu32.v Line: 23
+Info (12128): Elaborating entity "mux2to1_32" for hierarchy "mult32:g0|mux2to1_32:m0" File: D:/intelFPGA_lite/18.1/workspace/alu32/mult32.v Line: 14
+Info (12128): Elaborating entity "mux2to1" for hierarchy "mult32:g0|mux2to1_32:m0|mux2to1:g31" File: D:/intelFPGA_lite/18.1/workspace/alu32/mux2to1_32.v Line: 7
+Info (12128): Elaborating entity "add32" for hierarchy "mult32:g0|add32:a0" File: D:/intelFPGA_lite/18.1/workspace/alu32/mult32.v Line: 18
+Info (12128): Elaborating entity "add4" for hierarchy "mult32:g0|add32:a0|add4:g0" File: D:/intelFPGA_lite/18.1/workspace/alu32/add32.v Line: 10
+Info (12128): Elaborating entity "add1" for hierarchy "mult32:g0|add32:a0|add4:g0|add1:g0" File: D:/intelFPGA_lite/18.1/workspace/alu32/add4.v Line: 10
+Info (12128): Elaborating entity "full_adder1" for hierarchy "mult32:g0|add32:a0|add4:g0|add1:g0|full_adder1:g1" File: D:/intelFPGA_lite/18.1/workspace/alu32/add1.v Line: 8
+Info (12128): Elaborating entity "half_adder1" for hierarchy "mult32:g0|add32:a0|add4:g0|add1:g0|full_adder1:g1|half_adder1:g0" File: D:/intelFPGA_lite/18.1/workspace/alu32/full_adder1.v Line: 8
+Info (12128): Elaborating entity "datapath" for hierarchy "mult32:g0|datapath:d0" File: D:/intelFPGA_lite/18.1/workspace/alu32/mult32.v Line: 20
+Warning (10230): Verilog HDL assignment warning at datapath.v(42): truncated value with size 32 to match size of target (5) File: D:/intelFPGA_lite/18.1/workspace/alu32/datapath.v Line: 42
+Info (12128): Elaborating entity "or32" for hierarchy "mult32:g0|datapath:d0|or32:o" File: D:/intelFPGA_lite/18.1/workspace/alu32/datapath.v Line: 25
+Info (12128): Elaborating entity "control" for hierarchy "mult32:g0|control:c0" File: D:/intelFPGA_lite/18.1/workspace/alu32/mult32.v Line: 22
+Info (12128): Elaborating entity "xor32" for hierarchy "xor32:l0" File: D:/intelFPGA_lite/18.1/workspace/alu32/alu32.v Line: 29
+Info (12128): Elaborating entity "and32" for hierarchy "and32:l1" File: D:/intelFPGA_lite/18.1/workspace/alu32/alu32.v Line: 30
+Info (12128): Elaborating entity "not32" for hierarchy "not32:l3" File: D:/intelFPGA_lite/18.1/workspace/alu32/alu32.v Line: 32
+Info (12128): Elaborating entity "mux8to1_32" for hierarchy "mux8to1_32:m" File: D:/intelFPGA_lite/18.1/workspace/alu32/alu32.v Line: 35
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 409 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 68 input pins
+    Info (21059): Implemented 32 output pins
+    Info (21061): Implemented 309 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 4871 megabytes
+    Info: Processing ended: Fri Dec 09 23:42:34 2022
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:15
+
+

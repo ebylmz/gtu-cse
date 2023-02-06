@@ -1,0 +1,8 @@
+USER 13 7 7
+    P P P    
+    P . P    
+P P P P . P .
+P P . . P . .
+P P P . . . .
+    P . .    
+    P . P    

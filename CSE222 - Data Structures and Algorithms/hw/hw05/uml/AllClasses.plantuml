@@ -1,0 +1,68 @@
+@startuml treeuml
+
+class QuadTree {
+    - Point point
+    - Point topLeft
+    - Point bottomRight
+    - QuadTree[] children
+    + insert()
+    + find()
+}
+
+class Point {
+    - int x
+    - int y
+} 
+
+QuadTree o-- Point
+
+class BinaryTree {
+    # Node root
+    + getLeftSubtree()
+    + getRightSubtree()
+    + getData()
+    + isLeaf()
+    + toString()
+    + readBinaryTree()
+}
+
+class Node {
+    # E data
+    # Node parent
+    # Node right
+    # Node left
+} 
+
+class BinaryHeap {
+    - int size
+    + insert()
+    + getMin()
+    + extraxtMin()
+    + incrementKey()
+    + merge()
+    + clear()
+    + size()
+    + isEmpty()
+    + contains()
+}
+
+
+BinaryTree <-- BinaryHeap
+
+BinaryTree o-- Node
+
+interface SearchTree {
+    + add()
+    + contains()
+    + find()
+    + delete()
+    + remove()
+}
+
+class BinarySearchTree {
+    - E theData
+}
+
+SearchTree <-- BinarySearchTree
+
+@enduml

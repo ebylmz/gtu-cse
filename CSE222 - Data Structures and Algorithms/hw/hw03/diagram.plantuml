@@ -1,0 +1,238 @@
+@startuml cityplanneruml
+
+!theme spacelab
+
+class CityPlanner {
+    - StreetInterface street
+    - Scanner scanner
+    + void start()
+}
+
+interface StreetInterface {
+    + int getLength()
+    + void setLength()
+    + int getRemainingSpace()    
+    + int getLandCount()
+    + Land get()
+    + boolean add()
+    + boolean remove()
+    + void clear()
+    + Land find()
+    + int getAnalysis()
+    + list()
+    + focus()
+    + displaySkylineSilhouette()
+}
+
+class StreetArray {
+    - Land[] landList
+    - int landCount
+    - int[] negSide
+    - int[] posSide
+    + void setLength() 
+    + int getLength()
+    + Land at()
+    + int getRemainingSpace()
+    + int getEmptyLandSpace()
+    + int getLandCount()
+    + void list()
+    + boolean add()
+    + boolean canBePlaced()
+    + boolean remove()
+    + void clear()
+    + Land find()
+    + int exist()
+    + void focus()
+    + void displaySkylineSilhouette()
+}
+
+class StreetArrayList {
+    - ArrayList landList
+    - int landCount
+    - ArrayList negSide
+    - ArrayList posSide
+    + void setLength() 
+    + int getLength()
+    + Land at()
+    + int getRemainingSpace()
+    + int getEmptyLandSpace()
+    + int getLandCount()
+    + void list()
+    + boolean add()
+    + boolean canBePlaced()
+    + boolean remove()
+    + void clear()
+    + Land find()
+    + int exist()
+    + void focus()
+    + void displaySkylineSilhouette()
+}
+
+class StreetLinkedList {
+    - LinkedList landList
+    - int landCount
+    - LinkedList negSide
+    - LinkedList posSide
+    + void setLength() 
+    + int getLength()
+    + Land at()
+    + int getRemainingSpace()
+    + int getEmptyLandSpace()
+    + int getLandCount()
+    + void list()
+    + boolean add()
+    + boolean canBePlaced()
+    + boolean remove()
+    + void clear()
+    + Land find()
+    + int exist()
+    + void focus()
+    + void displaySkylineSilhouette()
+}
+
+class StreetLDLinkedList {
+    - LDLinkedList landList
+    - int landCount
+    - LDLinkedList negSide
+    - LDLinkedList posSide
+    + void setLength() 
+    + int getLength()
+    + Land at()
+    + int getRemainingSpace()
+    + int getEmptyLandSpace()
+    + int getLandCount()
+    + void list()
+    + boolean add()
+    + boolean canBePlaced()
+    + boolean remove()
+    + void clear()
+    + Land find()
+    + int exist()
+    + void focus()
+    + void displaySkylineSilhouette()
+}
+
+class LDLinkedList {
+    - Node removedNodeList
+    - Node head
+    - Node tail
+    - int size
+    + T get()
+    + void addFirst()
+    + void addLast()
+    + void add()
+    + boolean addAll()
+    + boolean remove()
+    + boolean removeAll()
+    + boolean retainAll()
+    + T set()
+    + boolean contains()
+    + boolean isEmpty()
+    + int size()
+    + Iterator iterator
+    + ListIterator listIterator
+    + void clear()
+    + Object[] toArray()
+}
+
+class LDListIter {
+    - Node nextEntry
+    - Node lastEntryReturned
+    - int index
+    + boolean hasNext()
+    + boolean hasPrevious()
+    + T next()
+    + T previous()
+    + int nextIndex()
+    + int previousIndex()
+    + void remove()
+    + void add()
+    + void set()
+}
+
+class Node {
+    - T data
+    - Node next
+    - Node prev
+}
+
+class Land {
+    - int location
+    - int width
+    - int heigth
+    + void setLoc()
+    + int getLoc()
+    + void setWidth()
+    + int getWidth()
+    + void setHeight()
+    + int getHeight()
+    + String getDimensionInfo()
+}
+
+class Building {
+    - String owner
+    + void setOwner()
+    + String getOwner()
+}
+
+class Playground {
+
+}
+
+class House {
+    - int numRooms
+    - String color    
+    + void setNumRooms()
+    + int getNumRooms()
+}
+
+class Market {
+    - Time openingTime
+    - Time closingTime
+    + void setOpeningTime()
+    + Time getOpeningTime()
+    + void setClosingTime()
+    + Time getClosingTime()
+}
+
+class Office {
+    - String jobType
+    + void setJobType()
+    + String getJobType()
+}
+
+class Time {
+    - int hour
+    - int minute
+    + void setHour()
+    + int getHour()
+    + void setMinute()
+    + int getMinute()
+    + void readTime()
+}
+
+CityPlanner o-- StreetInterface
+
+StreetInterface <.. StreetArray
+StreetInterface <.. StreetArrayList
+StreetInterface <.. StreetLinkedList
+StreetInterface <.. StreetLDLinkedList
+
+StreetLDLinkedList *-- LDLinkedList
+
+LDLinkedList o-- Node
+LDLinkedList *-- LDListIter
+
+StreetArray o-- Land
+StreetArrayList o-- Land
+StreetLDLinkedList o-- Land
+StreetLinkedList o-- Land
+
+Land <-- Building
+Land <-- Playground
+Building <-- House
+Building <-- Market
+Building <-- Office
+Office o-- Time
+
+@enduml

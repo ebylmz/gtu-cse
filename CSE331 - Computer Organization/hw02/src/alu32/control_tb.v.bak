@@ -1,0 +1,41 @@
+`define CLOCK 4
+
+module control_tb();
+
+
+	reg clk, lsb, shiftR, done32;
+	wire init, regWr, shiftR;
+	
+	control t(regWr, shiftR, init, clk, lsb, done32);
+		
+	initial begin
+		clk = 1'b0;
+		done32 = 1'b0;
+		
+		// 1st cycle
+		#40 
+		done = 1'b0;
+		lsb = 1'b1;
+		
+		#80 
+		lsb = 1'b0;
+		
+		#120 
+		done = 1'b1;
+		$finish;
+	end
+	
+	// define clock cycle
+	always begin
+		#2	clk = ~clk;
+	end
+		
+	initial begin
+		$monitor("time = %4d, init=%1b, B = %32d, result = %32d", $time, A, B, result);
+		$monitor("time=%2d, init=%1b, lsb_sel=%1b, shift_load=%1b, l_lsb=%1b, finish_cycle=%1b "
+	          ,$time, init, lsb_sel, shift_load, l_lsb, finish_cycle);
+	end
+	
+	
+
+endmodule

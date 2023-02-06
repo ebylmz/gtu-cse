@@ -1,0 +1,42 @@
+`timescale 1 ps / 1 ps
+
+module reg_file_tb();
+
+	reg [3:0] address_a, address_b;
+	reg [15:0] data_a, data_b; 
+	reg wren_a, wren_b;
+	reg clock = 1'b0;
+	wire [31:0] instr;
+	wire [15:0] q_a, q_b
+	
+	register_file _register_file(
+		.address_a(address_a),
+		.address_b(address_b),
+		.clock(clock),
+		.data_a(data_a),
+		.data_b(data_b),
+		.wren_a(wren_a),  
+		.wren_b(wren_b),
+		.q_a(q_a),
+		.q_b(q_b));
+	
+	always begin
+		#1 clock = ~clock;
+	end
+		
+	initial begin
+		#2 pc = pc + 1'b1;
+		#2 pc = pc + 1'b1;
+		#2 pc = pc + 1'b1;
+		#2 pc = pc + 1'b1;
+		#2 pc = pc + 1'b1;
+		#2 pc = pc + 1'b1;
+		#2 pc = pc + 1'b1;
+		#2 pc = pc + 1'b1;
+	end
+	
+	initial begin
+		$monitor("time = %3d, PC: %10b, Instr: %32b", $time, pc, instr);
+	end
+	
+endmodule

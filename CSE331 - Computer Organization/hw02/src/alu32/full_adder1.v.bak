@@ -1,0 +1,12 @@
+module full_adder1(y, co, a, b, ci);
+	
+	output y, co;
+	input a, b, ci;
+	
+	wire s0, c0, c1;
+	
+	half_adder1 g0(s0, c0, a, b);
+	half_adder1 g1(y, c1, s0, ci);
+	or g2(co, c0, c1)
+	
+endmodule 

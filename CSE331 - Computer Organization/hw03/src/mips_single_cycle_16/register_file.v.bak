@@ -1,0 +1,45 @@
+module register_file(
+	output [15:0] rs,
+	output [15:0] rt,
+	input	[3:0] rs_addr,
+	input [3:0] rt_addr,
+	input [3:0] write_addr,
+	input	[15:0] write_data,
+	input	reg_write,
+	input	clock,
+	input	fast_clock);
+
+	reg wren = 1'b0;
+	reg [3:0] addr_b = 4'b0;
+	reg [15:0] data_b = 16'b0;
+	
+	// half of the clock 
+	always @ (clock) begin
+		if (clock) begin
+			wren = 1'b0;
+			addr_b = rt_addr;
+		end
+		else begin 
+			wren = reg_write;
+			// wren = 1'b0;
+			addr_b = write_addr;
+			data_b = write_data;
+		end
+	end
+	
+	//assign wren = clock ? 1'h0 : reg_write;
+	//assign addr_b = clock ? rt_addr : write_addr;
+	//assign data_b = clock ? data_b : write_data;
+	
+	registers _registers(
+		.address_a(rs_addr),
+		.address_b(addr_b),
+		.clock(fast_clock), // which clock
+		.data_a(16'b0),
+		.data_b(data_b),
+		.wren_a(1'b0),  
+		.wren_b(wren),
+		.q_a(rs),
+		.q_b(rt));
+		
+endmodule

@@ -1,0 +1,15 @@
+module mux2to1(Y, S, I0, I1);
+
+	output[31:0] Y;
+	input S;
+	input[31:0] I0, I1;
+	wire[31:0] R0, R1;
+	wire SNot;
+	
+	// s should be extend to 32 bit
+	
+	and32(R0, I0, I1);
+	and32(R1, I0, I1);
+	or32(Y, R0, R1);
+	
+endmodule 

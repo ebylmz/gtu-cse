@@ -1,0 +1,9 @@
+USER 10 8 8
+    P . .      
+    . . P      
+    P . P      
+P . . P P . . P
+P . P P P P P P
+P P P P P P P P
+    P . P      
+    P P P      

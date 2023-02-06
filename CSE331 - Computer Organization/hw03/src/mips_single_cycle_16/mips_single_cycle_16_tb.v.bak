@@ -1,0 +1,24 @@
+`timescale 1 ps / 1 ps
+
+module mips_single_cycle_16_tb();
+
+	reg clock = 1'b0, reset;
+	wire [15:0] __alu_result, __write_reg_data;
+	wire [31:0] __instr;
+	
+	mips_single_cycle_16(
+		__alu_result,
+		__write_reg_data,
+		__instr,
+		input clock,
+		input reset);
+		
+	always begin
+		#1 clock = ~clock;
+	end
+
+	initial begin
+		
+	end
+		
+endmodule

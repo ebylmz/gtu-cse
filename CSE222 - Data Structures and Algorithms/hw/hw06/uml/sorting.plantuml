@@ -1,0 +1,18 @@
+@startuml sortinguml
+
+class MergeSort {
+    + {static} sort()
+    - {static} merge()
+}
+
+class QuickSort {
+    + {static} sort()
+    - {static} partition()
+}
+
+class NewSort {
+    + {static} sort()
+    - {static} findMinMax()
+}
+
+@enduml

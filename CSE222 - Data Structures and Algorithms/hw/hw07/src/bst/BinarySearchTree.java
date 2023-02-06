@@ -1,0 +1,390 @@
+package src.bst;
+
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+
+import src.heap.Heap;
+
+public class BinarySearchTree<E extends Comparable<E>> 
+    extends BinaryTree<E> implements SearchTree<E>, Iterable<E> {
+    /** Number of items inside the current tree */
+    private int numItem;
+    /** Return value from the public add method */
+    private boolean addReturn;
+    /** Return value from the public delete method */
+    private E deleteReturn;
+    
+
+    @Override
+    public boolean add(E item) {
+        root = add(root, item);
+        return addReturn;
+    }
+
+    /**
+     * Inserts given item to the tree (no dublication allowed)
+     * @param localRoot Local root
+     * @param item Item to insert
+     * @return False if the item is already exist in the tree, otherwise true
+     */
+    private Node<E> add(Node<E> localRoot, E item) {
+        if (localRoot == null) {
+            ++numItem;
+            addReturn = true;   
+            return new Node<>(item);
+        }
+        else {
+            int comp = item.compareTo(localRoot.data);
+            if (comp < 0) { // insert left subtree
+                localRoot.left = add(localRoot.left, item);
+                localRoot.left.parent = localRoot;
+            }
+            else if (comp > 0) { // insert right subtree
+                localRoot.right = add(localRoot.right, item);
+                localRoot.right.parent = localRoot;
+            }
+            else // item is already placed to the tree
+                addReturn = false;
+            return localRoot;
+        }
+    }
+
+    @Override
+    public boolean contains(E target) {
+        return find(target) != null;
+    }
+
+    @Override
+    public E find(E target) {
+        return find(root, target);
+    }
+
+    /**
+     * The number of items that this tree contain
+     * @return Number of items
+     */
+    @Override
+    public int getNumItem() {
+        return numItem;
+    }
+
+    /**
+     * Creates a new BST which structured same as given binary tree
+     * and contains the given items array of items. 
+     * Post: A new binary search tree created without modifying given binary tree and array of items
+     * @param t A binary tree
+     * @param items Items which will inserted into BST 
+     * @return Generated BST
+     */
+    public static <E extends Comparable<E>> BinarySearchTree<E> createBST(BinaryTree<E> t, E[] items) {
+        BinarySearchTree<E> bst = new BinarySearchTree<>();
+        // create an min heap from given items
+        Heap<E> heap = new Heap<>();
+        for (var item : items)
+            heap.insert(item);
+
+        bst.root = createBST(t.root, heap);
+        return bst;
+    }
+
+    /**
+     * Creates a new BST which structured same as given binary tree
+     * but contains the given items. 
+     * Post: A new binary search tree created without modifying given binary tree and array of items
+     * @param localRoot Root of the subtree
+     * @param items Items which will inserted into BST 
+     * @return Generated BST
+     */
+    private static <E extends Comparable<E>> Node<E> createBST(Node<E> localRoot, Heap<E> items) {
+        if (localRoot == null)
+            return null;
+        // create local root of BST
+        Node<E> node = new Node<E>(null);
+        // since left subtree contains smaller items than root, first create left subtree
+        node.left = createBST(localRoot.left, items);
+        // extract the next value from heap which is larger than left and smaller than right subtree 
+        node.data = items.extractMin();  
+        // lastly create the right subtree
+        node.right = createBST(localRoot.right, items);
+        // return the local root of the BST
+        return node;
+    }
+
+    /**
+     * Search the given target item in the tree
+     * @param localRoot Local root
+     * @param target Target item 
+     * @return If the item is found returns a referance to the target item, otherwise null
+     */
+    private E find(Node<E> localRoot, E target) {
+        if (localRoot == null)
+            return null;
+        else {
+            int comp = target.compareTo(localRoot.data);
+            if (comp < 0) // continue to search from left subtree
+                return find(localRoot.left, target);
+            else if (comp > 0) // continue to search from right subtree
+                return find(localRoot.right, target);
+            else // target is found
+                return localRoot.data;
+        } 
+    }
+
+    @Override
+    public E delete(E target) {
+        root = delete(root, target);
+        return deleteReturn;
+    }
+
+    /**
+     * Deletes the given target item from the tree
+     * @param localRoot Local root
+     * @param target Delete item
+     * @return Returns the value of target if the deletion is done succesfully, 
+     * otherwise returns null
+     */
+    private Node<E> delete(Node<E> localRoot, E target) {
+        if (localRoot == null) { // item is not in the tree
+            deleteReturn = null;
+            return null;
+        }
+        else {
+            int comp = target.compareTo(localRoot.data);
+            if (comp < 0) { // target could be at left subtree
+                localRoot.left = delete(localRoot.left, target);
+                return localRoot;
+            }
+            else if (comp > 0) { // target could be at right subtree
+                localRoot.right = delete(localRoot.right, target); 
+                return localRoot;
+            }
+            else { // target found
+                deleteReturn = localRoot.data; // return value
+                --numItem;
+                // three deletion scenerio
+                // 1. delete node has no child
+                // 2. delete node has one child
+                // 3. delete node has two child
+                if (localRoot.left == null)
+                    return localRoot.right; // return other child
+                else if (localRoot.right == null) // no child
+                    return null; 
+                else {
+                    // node being deleted has 2 children, replace the data with inorder predecessor
+                    if (localRoot.left.right == null) { 
+                        // the left child has no right child
+                        // replace the data with the data in the left child.
+                        localRoot.data = localRoot.left.data;
+                        // replace the left child with its left child.
+                        localRoot.left = localRoot.left.left;
+                        return localRoot;
+                    }
+                    else {
+                        // search for the inorder predecessor (ip) and replace 
+                        // deleted node data with ip
+                        localRoot.data = extractLargest(localRoot.left);
+                        return localRoot;
+                    }
+                }
+            }         
+        }         
+    }    
+
+    /*** Destroys the tree by Removing all the items of the tree */
+    public void destroy() {
+        root = destroy(root);
+        numItem = 0;
+    }
+
+    /*** Destroys the tree by Removing all the items of the tree */
+    private Node<E> destroy(Node<E> localRoot) {
+        if (localRoot != null) {
+            // first destroy left and right subtrees
+            localRoot.left = destroy(localRoot.left);
+            localRoot.right = destroy(localRoot.right);
+        }
+        // then destroy the tree itself by returning null (things work like this in java)
+        return null;
+    }
+
+    /**
+     * Converts the current binary tree to a balanced tree (AVL tree)
+     */
+    public void convertAVL() {
+        // Day-Stout-Warren (DSW) algorithm to balance given Binary Search Tree
+        root = createBackbone(root);
+        balanceBackBone();
+    }
+
+    /**
+     *  Converts the structure of bst to right-skewed/linked list (backbone) bst
+     * @param localRoot The local root
+     * @return Root of the backbone
+     */
+    private Node<E> createBackbone(Node<E> localRoot) {
+        if (localRoot != null) {
+            // rotate right all the nodes which has left child
+            while (localRoot.left != null)
+                localRoot = rotateRight(localRoot);
+            // after no left child remain, continue from right child level
+            localRoot.right = createBackbone(localRoot.right);
+        }
+        return localRoot;
+    }
+
+    /** 
+     * Balance the backone structure 
+     * pre: The current structure should be backbone 
+    */
+    private void balanceBackBone() {
+        // get number of nodes until second last level (perfect count)
+        int p = perfectCount();
+        // rotate as much as extra node at the last level item
+        root = rotateLeftRec(root, numItem - p);
+        // rotate left p/2, p/4, p/8 ... 
+        for (int i = p / 2; i > 0; i /= 2) 
+            root = rotateLeftRec(root, i);
+    }
+
+
+    /**
+     * Rotates the tree n times by recursivly traversing 
+     * @param localRoot Root of the subtree
+     * @param n Number of rotations
+     * @return Modified root after rotation
+     */
+    private Node<E> rotateLeftRec(Node<E> localRoot, int n) {
+        if (n > 0) {
+            localRoot = rotateLeft(localRoot);
+            localRoot.right = rotateLeftRec(localRoot.right, n - 1); 
+        }
+        return localRoot;
+    }
+
+    /**
+     * Returns the number of item inside the perfect tree of n nodes
+     * n: number of items inside the tree
+     * h: log(n + 1) (height of balanced tree)
+     * @return Number of items inside the perfect tree (pow(2, h - 1) - 1)
+     */
+    private int perfectCount() {
+        // in each iteration height of the perfect tree increses
+        int count = 0;
+        while (count < numItem)
+            count = 2 * count + 1; // pow(2, i) - 1
+        return count / 2; // pow(2, i - 1) - 1        
+    }
+
+    /**
+     * Performs a right rotation
+     * pre: localRoot is the root of the binary search tree
+     * post: localRoot.left is the root of the binary search tree
+     * @param localRoot The root of the binary search tree to be rotated
+     * @return The new root of the rotate tree
+     */
+    protected Node<E> rotateRight(Node<E> localRoot) {
+        Node<E> temp = localRoot.left; 
+        localRoot.left = temp.right;
+        temp.right = localRoot;
+        return temp; // return the new root
+    }
+
+    /**
+     * Performs a left rotation
+     * pre: localRoot is the root of the binary search tree
+     * post: localRoot.right is the root of the binary search tree
+     * @param localRoot The root of the binary search tree to be rotated
+     * @return The new root of the rotate tree
+     */
+    protected Node<E> rotateLeft(Node<E> localRoot) {
+        Node<E> temp = localRoot.right;
+        localRoot.right = temp.left;
+        temp.left = localRoot;
+        return temp; // return the new root
+    }
+
+    /**
+     * Removes largest child and returns the value of it
+     * @param parent Parent node
+     * @return Largest child
+     */
+    private E extractLargest(Node<E> parent) {
+        // traverse to right to find largest child
+        if (parent.right.right == null) {
+            var v = parent.right.data;
+            parent.right = parent.right.left;
+            return v;
+        }
+        else 
+            return extractLargest(parent.right);
+    }
+
+    @Override
+    public boolean remove(E target) {
+        return delete(target) != null;
+    }
+
+    @Override
+    public Iterator<E> iterator() {
+        return new TreeIterator();
+    }
+
+    private class TreeIterator implements Iterator<E> {
+        private Node<E> nextNode;
+
+        /*** Constructs an iterator which next value is most left item */
+        public TreeIterator() {
+            nextNode = (root != null) ? mostLeft(root) : null;
+        }   
+
+        @Override
+        public boolean hasNext() {
+            return nextNode != null;
+        }
+
+        @Override
+        public E next() throws NoSuchElementException {
+            if (!hasNext())
+                throw new NoSuchElementException();
+            E r = nextNode.data;
+            // currently we are at the most left node
+            // means there is no more left child, so continue
+            // to traversing with the right child if there is
+            if (nextNode.right != null)
+                nextNode = mostLeft(nextNode.right);
+            else { // if the nextNode is left child of his parent
+                while (true) {
+                    if (nextNode.parent == null) {
+                        // all nodes in the tree is traversed
+                        nextNode = null;
+                        break;
+                    }
+                    else if (nextNode.parent.left == nextNode) {
+                        // if the current node is left child, then next node is parent
+                        nextNode = nextNode.parent;
+                        break;
+                    }
+                    else {
+                        // if the current node is right child, parent is already traversed so
+                        // the next node should be ancestor of parent node 
+                        nextNode = nextNode.parent;
+                    }
+                }
+            }
+            
+            return r;
+        }
+
+        /**
+         * Returns the node which is placed at most left of the tree 
+         * @param localRoot Root of the current subtree
+         * @return Most left node of the subtree
+         */
+        private Node<E> mostLeft(Node<E> localRoot) {
+            if (localRoot.left == null)
+                return localRoot;
+            else
+                return mostLeft(localRoot.left);
+        }
+    }
+}

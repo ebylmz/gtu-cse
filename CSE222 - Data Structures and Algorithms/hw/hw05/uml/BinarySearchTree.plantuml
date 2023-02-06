@@ -1,0 +1,17 @@
+@startuml bstuml
+
+interface SearchTree {
+    + add()
+    + contains()
+    + find()
+    + delete()
+    + remove()
+}
+
+class BinarySearchTree {
+    - E theData
+}
+
+SearchTree <-- BinarySearchTree
+
+@enduml

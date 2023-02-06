@@ -1,0 +1,117 @@
+@startuml cityplanneruml
+
+!define DARKORANGE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+class CityPlanner {
+    - Street street
+    - Scanner scanner
+    + void start()
+    - void editMode()
+    - void viewMode()
+    - void addMenu()
+    - void removeMenu()
+    - void addHouse()
+    - void addOffice()
+    - void addMarket()
+    - void addPlayground()
+    - void setLand()
+    - void setBuilding()
+    - void printMenu()
+    - int getInt()
+    - void enterToContinue()
+}
+
+class Street {
+    - Land[] lands
+    - int landCount
+    - int[] negSide
+    - int[] posSide
+    - int streetlen
+    + void setLength() 
+    + int getLength()
+    + Land at()
+    + int getRemainingSpace()
+    + int getEmptyLandSpace()
+    + int getLandNumber()
+    + void listAllStructures()
+    + boolean add()
+    - int[] getStreetSide()
+    - void setSilhouette()
+    - int[] getSilhouetteLoc()
+    + boolean canBePlaced()
+    + boolean remove()
+    + void clear()
+    + Land find()
+    + int exist()
+    + void focus()
+    + void displaySkylineSilhouette()
+    - void drawSkylineSilhouette()
+    - void resize()
+}
+
+class Land {
+    - int location
+    - int width
+    - int heigth
+    + void setLoc()
+    + int getLoc()
+    + void setWidth()
+    + int getWidth()
+    + void setHeight()
+    + int getHeight()
+    + String getDimensionInfo()
+}
+
+class Building {
+    - String owner
+    + void setOwner()
+    + String getOwner()
+}
+
+class Playground {
+
+}
+
+class House {
+    - int numRooms
+    - String color    
+    + void setNumRooms()
+    + int getNumRooms()
+}
+
+class Market {
+    - Time openingTime
+    - Time closingTime
+    + void setOpeningTime()
+    + Time getOpeningTime()
+    + void setClosingTime()
+    + Time getClosingTime()
+}
+
+class Office {
+    - String jobType
+    + void setJobType()
+    + String getJobType()
+}
+
+class Time {
+    - int hour
+    - int minute
+    + void setHour()
+    + int getHour()
+    + void setMinute()
+    + int getMinute()
+    + void readTime()
+}
+
+Land <-- Building
+Land <-- Playground
+Building <-- House
+Building <-- Market
+Building <-- Office
+Office o-- Time
+CityPlanner o-- Street
+Street o-- Land
+
+@enduml

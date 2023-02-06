@@ -1,0 +1,28 @@
+;; TEST CASES:
+;; Expressions (+, -, *, /, >, =)
+;; Binary values and expressions (and, or, not) 
+;; Control Statements (If, while)
+;; Definitions (defvar, deffun)
+
+(defvar a 4f1)
+(defvar b 1f5)
+(deffun add_two (a b) 
+    (((+ (+ a b) 2f1))))
+(if false ((- 2f2 4f4)) ((+ 2f2 4f4)))
+
+(add 1f3 2f4)
+(- 3f2 -1f2)
+(+  a 1f2)
+
+(defvar c 12f42)
+(defvar d 12f42)
+
+(- 2f1 3f1)
+(if (=  a 1f2) (a) (b)) 
+(set a 1f4)
+
+;; program is terminated after exit
+(exit) 
+
+(* 4f1 5f1)
+(/ 4f1 2f1)

@@ -1,0 +1,33 @@
+# do alu32.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:28 on Dec 09,2022
+# vlog -work work alu32.vo 
+# -- Compiling module alu32
+# 
+# Top level modules:
+# 	alu32
+# End time: 17:01:28 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:28 on Dec 09,2022
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module alu32_vlg_vec_tst
+# 
+# Top level modules:
+# 	alu32_vlg_vec_tst
+# End time: 17:01:28 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.mult32_vlg_vec_tst 
+# Start time: 17:01:28 on Dec 09,2022
+# ** Error: (vsim-3170) Could not find 'mult32_vlg_vec_tst'.
+#         Searched libraries:
+#             d:/intelfpga_lite/18.1/modelsim_ase/altera/verilog/cyclonev
+#             d:/intelfpga_lite/18.1/modelsim_ase/altera/verilog/altera
+#             d:/intelfpga_lite/18.1/modelsim_ase/altera/verilog/altera_mf
+#             d:/intelfpga_lite/18.1/modelsim_ase/altera/verilog/220model
+#             d:/intelfpga_lite/18.1/modelsim_ase/altera/verilog/sgate
+#             d:/intelfpga_lite/18.1/modelsim_ase/altera/verilog/altera_lnsim
+#             D:/intelFPGA_lite/18.1/workspace/alu32/simulation/qsim/work
+# Error loading design
+# End time: 17:01:29 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

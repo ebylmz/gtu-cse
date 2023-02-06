@@ -1,0 +1,516 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/simulation/modelsim
+vadd_1
+Z1 !s110 1674315846
+!i10b 1
+!s100 h@Yj1QCXnEjSnNJH2H]<V1
+IM6cjKKND]T2HcnO8a7_Ea1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1673893860
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/add_1.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/add_1.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1674315846.000000
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/add_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/add_1.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16
+Z7 tCvgOpt 0
+vadd_16
+R1
+!i10b 1
+!s100 ?_23c@8E<KeaRmgA8g51C3
+I8aWD41G9^Ggb;d@d=?HGj0
+R2
+R0
+w1673892589
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/add_16.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/add_16.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/add_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/add_16.v|
+!i113 1
+R5
+R6
+R7
+vadd_4
+R1
+!i10b 1
+!s100 GiLDYk7CS60[69AB3UA>C0
+I^Z0Ue>hIoCGYJ3YTJEYkK2
+R2
+R0
+w1673890228
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/add_4.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/add_4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/add_4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/add_4.v|
+!i113 1
+R5
+R6
+R7
+valu_16
+Z8 !s110 1674315844
+!i10b 1
+!s100 zINjLcjjYOmaP4UIj6S4C1
+I0nS:Z;j1Y_0mn>ENMCGT40
+R2
+R0
+w1673897590
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/alu_16.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/alu_16.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1674315844.000000
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/alu_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/alu_16.v|
+!i113 1
+R5
+R6
+R7
+vand_16
+Z10 !s110 1674315847
+!i10b 1
+!s100 0n99=?8fWP>A1BC61S6^L1
+IicD>dFLlkWQ82[Ak2VnMc0
+R2
+R0
+w1673890456
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/and_16.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/and_16.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z11 !s108 1674315847.000000
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/and_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/and_16.v|
+!i113 1
+R5
+R6
+R7
+vcontrol_unit
+Z12 !s110 1674315843
+!i10b 1
+!s100 nnMoMgYefVn474CddEV313
+I1d4O5]GC4=SKmBDg91X@<3
+R2
+R0
+w1674309599
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/control_unit.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/control_unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z13 !s108 1674315843.000000
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/control_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/control_unit.v|
+!i113 1
+R5
+R6
+R7
+vdata_mem
+R10
+!i10b 1
+!s100 jGk`A]GfBD=fh7;dXoA520
+IY3<PD_f=3?0WY8MGH=Y8P3
+R2
+R0
+w1673757148
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/data_mem.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/data_mem.v
+Z14 L0 39
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/data_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/data_mem.v|
+!i113 1
+R5
+R6
+R7
+vdatapath
+R12
+!i10b 1
+!s100 ?^kSk`HU=K5hdzAPaS7ZH2
+IDP_Cz?]c3B7Dmc<CTTE4F2
+R2
+R0
+w1674285109
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/datapath.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/datapath.v|
+!i113 1
+R5
+R6
+R7
+vfull_adder_1
+R1
+!i10b 1
+!s100 YkA`m7`=UQKQNDXVQjh750
+Ik8g2:WbJXV4M^QL<7dKS:3
+R2
+R0
+w1673890601
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/full_adder_1.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/full_adder_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/full_adder_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/full_adder_1.v|
+!i113 1
+R5
+R6
+R7
+vhalf_adder_1
+R1
+!i10b 1
+!s100 U68R2oYDMmV>@TZcWRgNc0
+IXCWQ3WgVLV>ZK]eiaUQnT1
+R2
+R0
+w1673890639
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/half_adder_1.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/half_adder_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/half_adder_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/half_adder_1.v|
+!i113 1
+R5
+R6
+R7
+vinstr_mem
+R10
+!i10b 1
+!s100 @gfYS6O7ODAk6af3?TO5C3
+Ia1A]hfXmR9VS:bIDR7ZUN1
+R2
+R0
+w1673756952
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/instr_mem.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/instr_mem.v
+R14
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/instr_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/instr_mem.v|
+!i113 1
+R5
+R6
+R7
+vmips_single_cycle_16
+R12
+!i10b 1
+!s100 eeZ4eP:LUaH=LI9hc<_?01
+I4M_iT@QJRZ^;?nlGkYIiE3
+R2
+R0
+w1673991292
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mips_single_cycle_16.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mips_single_cycle_16.v
+L0 1
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mips_single_cycle_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mips_single_cycle_16.v|
+!i113 1
+R5
+R6
+R7
+vmips_single_cycle_16_tb
+R10
+!i10b 1
+!s100 HnF`Y[g_h6Z0G2zYf@:^=1
+I8XzVolB^7RXH?OHPNao[M2
+R2
+R0
+w1674308591
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mips_single_cycle_16_tb.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mips_single_cycle_16_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mips_single_cycle_16_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mips_single_cycle_16_tb.v|
+!i113 1
+R5
+R6
+R7
+vmult_16
+R8
+!i10b 1
+!s100 hkcPWWNX^eIG5gQJERC4^1
+IEoj0WQch^YVK3V3Rez8`f2
+R2
+R0
+w1673893445
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mult_16.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mult_16.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mult_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mult_16.v|
+!i113 1
+R5
+R6
+R7
+vmult_16_control
+Z15 !s110 1674315845
+!i10b 1
+!s100 DM=OGORb9MnO_T<Y[1d9z2
+I[z4BFdLbhfG;87VzJm:D22
+R2
+R0
+w1673893452
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mult_16_control.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mult_16_control.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mult_16_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mult_16_control.v|
+!i113 1
+R5
+R6
+R7
+vmult_16_datapath
+R15
+!i10b 1
+!s100 CeTWzBO:E:2;BNZz:EW133
+IUQQ2a?R3FDCTZn2@2aGaI2
+R2
+R0
+w1673895536
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mult_16_datapath.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mult_16_datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z16 !s108 1674315845.000000
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mult_16_datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mult_16_datapath.v|
+!i113 1
+R5
+R6
+R7
+vmux2to1
+R1
+!i10b 1
+!s100 0OXk4bU[k369D]SfSFBa=3
+I98de70Pk2MR]kEHHKH:3d3
+R2
+R0
+w1673891232
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mux2to1.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mux2to1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R16
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mux2to1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mux2to1.v|
+!i113 1
+R5
+R6
+R7
+vmux2to1_16
+R15
+!i10b 1
+!s100 ZXbOFPm=<o^C6?0CoX24>3
+II5R^?Za0AEnW34bUJQ@T52
+R2
+R0
+w1673891332
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mux2to1_16.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mux2to1_16.v
+L0 1
+R3
+r1
+!s85 0
+31
+R16
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mux2to1_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mux2to1_16.v|
+!i113 1
+R5
+R6
+R7
+vmux8to1_16
+R15
+!i10b 1
+!s100 8A>h_YQEPh@i8UeK]i<EF1
+IRR[@3PSH?]C]c5Q_@EcRP2
+R2
+R0
+w1673893385
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mux8to1_16.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mux8to1_16.v
+L0 1
+R3
+r1
+!s85 0
+31
+R16
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mux8to1_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/mux8to1_16.v|
+!i113 1
+R5
+R6
+R7
+vor_16
+R15
+!i10b 1
+!s100 8GFF?M39X>S@Gg1^2a@Jk2
+ICd4b=A=:gieL2?0bZea8g0
+R2
+R0
+w1673889919
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/or_16.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/or_16.v
+L0 1
+R3
+r1
+!s85 0
+31
+R16
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/or_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/or_16.v|
+!i113 1
+R5
+R6
+R7
+vpc_next
+R8
+!i10b 1
+!s100 E2l^TiINi4XT6:zbY67bE2
+IliMDY@EkRVAQegiRY0zI41
+R2
+R0
+w1673984761
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/pc_next.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/pc_next.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/pc_next.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/pc_next.v|
+!i113 1
+R5
+R6
+R7
+vregister_file
+R8
+!i10b 1
+!s100 ZCJ:PiS]UlN:]g3[=>10[3
+I2<F9L5WLa3zD@VVKG8hSR2
+R2
+R0
+w1674283214
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/register_file.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/register_file.v
+L0 1
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/register_file.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/register_file.v|
+!i113 1
+R5
+R6
+R7
+vregisters
+R10
+!i10b 1
+!s100 iXZ;_PQnGc3TeEMdEcD;?0
+I_UomC@Cl[JUQo]Tmi]0EB2
+R2
+R0
+w1673877482
+8D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/registers.v
+FD:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/registers.v
+R14
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/registers.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16|D:/intelFPGA_lite/18.1/workspace/mips_single_cycle_16/registers.v|
+!i113 1
+R5
+R6
+R7

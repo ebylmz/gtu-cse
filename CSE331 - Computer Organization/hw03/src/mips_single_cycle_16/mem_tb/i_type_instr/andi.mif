@@ -1,0 +1,26 @@
+DEPTH = 1024;
+WIDTH = 32;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = BIN;
+CONTENT 
+BEGIN
+
+00 : 001000	0001	0001	0000 0000 0000 0000	00;         -- addi $r1, $r1, 0      // display r1 content
+01 : 001000	0010	0010	0000 0000 0000 0000	00;         -- addi $r2, $r2, 0      // display r2 content 
+02 : 001100	0010	0001	0001 1010 1011 1100	00;         -- andi $r1, $r2, 0x1ABC  // andi instruction 
+03 : 001000	0001	0001	0000 0000 0000 0000	00;         -- addi $r1, $r1, 0      // display r1 content
+04 : 0;
+05 : 0;
+06 : 0;
+07 : 0;
+08 : 0;
+09 : 0; 
+0A : 0;
+0B : 0;
+0C : 0;
+0D : 0;
+0E : 0;
+0F : 0;
+10 : 0;
+
+END;

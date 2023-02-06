@@ -1,0 +1,26 @@
+DEPTH = 1024;
+WIDTH = 32;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = BIN;
+CONTENT 
+BEGIN
+
+00 : 001000	0101	0101	0000 0000 0000 0000	00;         -- addi $r5, $r5, 0      // display r5 content
+01 : 001000	0100	0100	0000 0000 0000 0000	00;         -- addi $r4, $r4, 0      // display r4 content 
+02 : 000011	00 0000 0110	0000 0000 0000 0000;            -- jal 0x0               // jal instruction 
+03 : 0;
+04 : 0;
+05 : 0;
+06 : 001000	0011	0011	0000 0000 0000 0000	00;         -- addi $r1, $r1, 0      // display r1 content 
+07 : 000000	0100	0101	0001	0000	100101	0000;   -- or $r1, $r4, $r5      // or instruction 
+08 : 001000	0001	0001	0000 0000 0000 0000	00;         -- addi $r1, $r1, 0      // display r1 content
+09 : 0;
+0A : 0;
+0B : 0;
+0C : 0;
+0D : 0;
+0E : 0;
+0F : 0;
+10 : 0;
+
+END;

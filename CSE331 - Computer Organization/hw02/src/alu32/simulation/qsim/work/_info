@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/18.1/workspace/alu32/simulation/qsim
+valu32
+Z1 !s110 1670594488
+!i10b 1
+!s100 EC2k[e0KY<eTnonDgzWDL1
+ISF8fj5_F43KiL2Sh8^Ca11
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1670594487
+8alu32.vo
+Falu32.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1670594488.000000
+!s107 alu32.vo|
+!s90 -work|work|alu32.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+valu32_vlg_vec_tst
+R1
+!i10b 1
+!s100 2=R[G=1@ahGSlf6jiTbLW0
+Ic9WG3Ab6>2EUF1Z=0P3050
+R2
+R0
+w1670594486
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

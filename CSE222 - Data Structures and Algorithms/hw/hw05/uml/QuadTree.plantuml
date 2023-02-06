@@ -1,0 +1,19 @@
+@startuml quadtreeuml
+
+class QuadTree {
+    - Point point
+    - Point topLeft
+    - Point bottomRight
+    - QuadTree[] children
+    + insert()
+    + find()
+}
+
+class Point {
+    - int x
+    - int y
+} 
+
+QuadTree o-- Point
+
+@enduml

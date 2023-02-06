@@ -1,0 +1,2473 @@
+resolutely <> indecisively irresolutely
+cacophonous <> euphonious
+lend <> borrow
+favorable <> unfavorable
+thirsty <> hungry
+tidiness <> untidiness
+attentive <> inattentive heedless
+noisy <> quiet
+centralization <> decentralization
+worst <> best
+ill <> well
+clear <> cloudy convict bounce overcast unclear clutter opaque
+attachable <> detachable
+outdoors <> indoors inside
+orthodox <> unorthodox
+sickness <> wellness
+rejection <> acceptance
+advantageously <> badly
+immoderately <> moderately reasonably
+rawness <> completeness experience
+ill-advised <> well-advised
+helpfully <> unhelpfully
+uncritical <> critical
+piousness <> impiety
+continuance <> discontinuation discontinuance
+purposely <> accidentally unintentionally
+lightly <> heavily thickly
+nonmigratory <> migratory
+public <> private
+small <> big large
+cheerful <> cheerless
+leeward <> windward downwind
+determined <> undetermined
+verso <> recto obverse
+malignity <> benignity
+readability <> illegibility
+dependable <> undependable unreliable
+irreducible <> reducible
+nonage <> majority
+unfortunately <> luckily fortunately
+altruistic <> egoistic
+brunet <> blond
+danger <> safety
+unprofitably <> profitably fruitfully productively
+hardhearted <> softhearted
+involve <> obviate
+inoffensive <> offensive unsavory
+indecision <> decision decisiveness
+disconnect <> connect
+dependability <> unreliability
+carefully <> carelessly
+precision <> imprecision impreciseness
+noncompliance <> compliance obedience
+nonpolitical <> political
+biennial <> annual perennial
+smoky <> smokeless
+foreground <> background
+classification <> declassification
+annual <> biennial perennial
+augmentation <> diminution
+retrospective <> prospective
+stiffen <> loosen
+credulously <> incredulously
+tie <> untie disconnect
+goodness <> badness bad evilness evil
+quiet <> sound agitate noisy unquiet
+inactivate <> activate mobilize
+uncompromising <> compromising
+talented <> untalented
+amoral <> immoral moral
+death <> birth
+irrationally <> rationally
+lightness <> darkness heaviness
+outlay <> income
+unify <> divide
+frequently <> rarely infrequently
+unprepared <> prepared
+hatred <> love
+rectify <> falsify
+unhelpfully <> helpfully
+wrong <> rightfulness right correct correctly
+commonness <> individuality uncommonness
+reverently <> irreverently
+formally <> informally
+ignore <> know notice
+unsnarl <> snarl entangle
+deductive <> inductive
+uncontaminated <> contaminated
+unwind <> strain tense
+subsonic <> supersonic sonic
+finished <> unfinished
+vertebrate <> invertebrate
+heat <> cool
+optimistic <> pessimistic
+heresy <> orthodoxy
+unnecessary <> necessary
+negativism <> positiveness
+cohesion <> incoherence
+cheerfully <> cheerlessly
+incommensurate <> commensurate
+exile <> repatriate
+outset <> middle
+cheaply <> expensively
+enable <> disable
+inexpediency <> expediency
+attend <> miss
+unpleasantness <> pleasantness
+cooperative <> uncooperative
+mensurable <> immeasurable
+summery <> autumnal wintry vernal
+propriety <> impropriety
+be <> differ
+systematic <> unsystematic
+white-collar <> blue-collar
+spirited <> spiritless
+unmoral <> moral immoral
+surface <> subsurface overhead
+conditioned <> unconditioned
+postpartum <> prenatal
+systematically <> inconsistently
+separably <> inseparably
+light <> dark heavy extinguish
+nonsurgical <> surgical
+acquit <> convict
+mental <> physical
+gaseous <> solid liquid
+human <> nonhuman
+full <> empty wane thin
+contaminated <> uncontaminated
+incomparable <> comparable
+lost <> won found
+indecisiveness <> decision decisiveness
+highlight <> background
+uncommonness <> commonness
+untangle <> knot ravel
+no <> all some
+regularly <> irregularly
+worth <> worthlessness
+roll <> unwind
+unnatural <> unaffected natural
+inexperienced <> experienced
+purposeful <> purposeless
+recollect <> forget
+tangibleness <> intangibility
+patronize <> boycott
+critical <> noncritical uncritical
+heterodoxy <> orthodoxy
+familiar <> unfamiliar strange
+hardware <> software
+bad <> good goodness
+liven <> deaden
+tidy <> untidy
+sour <> sweet sweeten
+unconditional <> conditional
+unequally <> equally evenly
+insane <> sane
+disillusion <> enchant
+homogenize <> curdle
+multilingual <> monolingual
+maximal <> minimum minimal
+sadness <> happiness
+unmanageable <> manageable
+resident <> migratory nonresident
+unpardonable <> pardonable
+dishonesty <> honesty
+harmonious <> inharmonious
+mini <> midi maxi
+coherent <> incoherent
+inwardly <> outwardly
+coherently <> incoherently
+appropriately <> inappropriately unsuitably
+strain <> relax
+impersonal <> personal
+retrogress <> progress
+carelessness <> carefulness
+curly <> straight
+act <> refrain
+thinness <> thickness fatness
+legitimacy <> illegitimacy
+indiscreet <> discreet
+joint <> separate
+jam <> free
+advisability <> inadvisability
+prize <> disesteem disrespect
+exportation <> import
+homogeneous <> heterogeneous
+inanimate <> animate
+intemperate <> temperate
+innocence <> guilt
+permissible <> impermissible
+reciprocal <> nonreciprocal
+unhallowed <> holy
+express <> local
+block <> unblock unfreeze
+fashionably <> unfashionably
+interrogatory <> declaratory declarative
+uncultivated <> cultivated
+animal <> mineral vegetable
+convincing <> unconvincing
+segregation <> integration
+monody <> polyphony
+unprejudiced <> prejudiced
+anterior <> posterior
+hypothyroidism <> hyperthyroidism
+push <> pull
+unevenness <> invariability evenness
+misbehave <> behave
+conductor <> insulator
+heterosexual <> homosexual bisexual
+joyous <> joyless
+serviceman <> civilian
+nonreturnable <> returnable
+humorlessly <> humorously
+daytime <> night
+lax <> tense
+igneous <> aqueous
+decentralization <> centralization
+decision <> indecision
+extinct <> active extant
+incontinent <> continent
+congruence <> incongruity
+gratefully <> ungratefully
+outflow <> influx inflow
+thoughtlessness <> thoughtfulness consideration
+tasteful <> tasteless
+indiscernible <> discernible
+manual <> automatic
+away <> home
+socialism <> capitalism
+autumnal <> summery vernal wintry
+amphibious <> aquatic terrestrial
+felicitous <> infelicitous
+abstractness <> concreteness
+preciseness <> imprecision impreciseness
+bipedal <> quadruped quadrupedal
+justifiably <> unjustifiably
+present <> future past
+attractive <> unattractive repulsive
+uniform <> multiform
+legal <> illegal
+inferiority <> superiority
+harmless <> harmful noxious
+extensive <> intensive
+reverence <> irreverence
+colonize <> decolonize
+clearheaded <> confused
+top <> bottom side
+sis <> brother
+laze <> work
+centrally <> peripherally
+wide <> narrow
+unhurriedly <> hurriedly
+concentric <> eccentric
+unilateral <> multilateral
+fail <> pass succeed manage
+unsheathe <> sheathe
+veracity <> mendacity
+unroll <> wind
+unshapely <> shapely
+dishonor <> honor
+deductible <> nondeductible
+unpredictability <> predictability
+linear <> cubic
+unimaginatively <> imaginatively
+addictive <> nonaddictive
+accommodating <> unaccommodating
+consciousness <> unconsciousness
+flawlessness <> imperfection
+graciousness <> malignancy malignity
+infallibility <> fallibility
+disbelievingly <> credulously
+frigidity <> hotness
+unreliability <> reliability dependability
+engage <> fire disengage
+self-fertilization <> cross-fertilization
+compensate <> wrong
+romanticist <> classicist
+unkindly <> kindly
+interactive <> antagonistic
+humanize <> dehumanize
+unwrap <> wrap
+disarming <> armament
+pin <> unpin
+chaste <> unchaste
+quit <> stay continue enter
+worse <> better
+unforgettable <> forgettable
+coherence <> incoherence
+appointed <> elective
+on <> off
+contamination <> decontamination
+sonic <> subsonic supersonic
+general <> particular specific
+flattering <> unflattering
+wise <> foolish
+unconsciously <> consciously
+strength <> weakness
+associate <> dissociate
+cooperation <> competition
+frivolity <> seriousness
+dry-eyed <> tearful
+female <> androgynous male
+legged <> legless
+wrongfulness <> rightfulness right
+male <> female androgynous
+exclusive <> inclusive
+inmate <> outpatient
+profane <> sacred
+resistible <> irresistible
+wakefulness <> sleepiness
+dependably <> unreliably
+avoirdupois <> leanness
+deceleration <> acceleration
+heliocentric <> geocentric
+heedful <> heedless
+fearless <> afraid
+unbridgeable <> bridgeable
+detest <> love
+fame <> infamy
+gluttonous <> abstemious
+favorably <> unfavorably
+illegality <> legality
+stimulative <> depressant
+strengthen <> weaken
+fill <> empty
+debtor <> creditor
+queen <> king
+permeable <> impermeable
+convinced <> unconvinced
+extinguish <> ignite
+rocky <> smooth
+undervalue <> overestimate overvalue
+attract <> repel
+mineral <> animal vegetable
+lifelessness <> motion
+darken <> brighten
+declaratory <> interrogatory interrogative
+double <> univalent
+unprotected <> protected
+legitimate <> illegitimate outlaw
+unlikeness <> similitude likeness
+irrecoverable <> recoverable
+unsatisfactory <> satisfactory
+wear <> refresh
+breakable <> unbreakable
+accord <> disagreement
+inwards <> outward
+delicate <> rugged
+involuntary <> voluntary
+awkwardness <> gracefulness
+parallel <> perpendicular
+inexplicable <> explicable
+rectifiable <> irreparable
+stormy <> calm
+legitimatize <> outlaw
+empty <> full fill
+jibe <> disagree
+effectively <> ineffectively
+vegetable <> mineral animal
+ignite <> extinguish
+oftentimes <> rarely infrequently
+permanently <> temporarily
+wicked <> virtuous
+fruitfulness <> fruitlessness
+oft <> rarely infrequently
+concentration <> distribution dilution
+overact <> underact
+unhelpful <> helpful
+opportunely <> inopportunely
+justly <> unjustly
+dampen <> stimulate
+drunkenness <> soberness
+knowingly <> unknowingly unwittingly
+dirty <> clean
+bulk <> minority
+often <> rarely infrequently
+wedge <> dislodge
+publicly <> privately
+faithfulness <> unfaithfulness
+countenance <> disallow forbid
+evilness <> goodness good
+clearness <> obscurity
+incompatibility <> compatibility
+unfeelingly <> feelingly
+vulnerable <> invulnerable
+tangibility <> intangibility
+univalent <> bivalent
+deactivate <> activate
+inscribe <> decode
+inarticulately <> articulately eloquently
+difficulty <> ease
+uncomplimentary <> complimentary flattering
+cross-country <> road
+unification <> separation disunion
+fecundity <> infertility fruitlessness
+partial <> impartial
+disorderliness <> order orderliness
+superhuman <> subhuman
+innocuous <> noxious
+upstream <> downstream downriver
+upriver <> downstream downriver
+synthesize <> analyze
+apply <> exempt defy
+conclusive <> inconclusive
+right <> left center wrongly incorrectly wrong incorrect wrongfulness
+zipper <> unzip
+outwear <> refresh
+cry <> laugh
+unaffected <> affected
+unadventurous <> adventurous
+enchanted <> disenchanted
+decode <> encode
+hook <> unhook undercharge
+hesitantly <> unhesitatingly
+intermediate <> first last
+centralize <> decentralize
+still <> agitate moving sparkling
+mirthfully <> unhappily
+egress <> immersion ingress
+recoverable <> unrecoverable
+impermeability <> permeability
+friendly <> hostile
+unimpaired <> impaired
+dishearten <> hearten
+inexpensively <> expensively
+sterility <> fertility
+digestible <> indigestible
+regrettably <> luckily fortunately
+dishonest <> honest
+unbelievably <> believably credibly
+lighten <> darken
+appreciatively <> ungratefully
+inconvenience <> convenience
+superscript <> subscript
+appear <> disappear
+homogeneity <> heterogeneity
+wearable <> unwearable
+auspiciously <> inauspiciously
+proximate <> ultimate
+indiscriminate <> discriminate
+amateurishly <> expertly
+synthesis <> analysis
+peeress <> nobleman
+romantic <> classicist
+employment <> unemployment
+comparable <> incomparable
+wholesome <> unwholesome
+incompetently <> competently
+unbreakable <> breakable
+unholiness <> holiness
+differentiate <> integrate
+dryness <> wetness
+sharpness <> softness indistinctness
+oldness <> newness
+diploid <> haploid
+analysis <> synthesis
+fine <> coarse
+refined <> unrefined
+justice <> injustice
+reliability <> unreliability
+hungry <> thirsty
+lead <> deficit follow
+beneficent <> maleficent
+flexibly <> inflexibly
+consistently <> inconsistently
+unjustifiably <> justifiably
+inflow <> outflow
+adventuresome <> unadventurous
+secular <> clergyman
+outlaw <> decriminalize legalize
+indigestible <> digestible
+alas <> fortunately luckily
+breast-fed <> bottle-fed
+nonfictional <> fictional
+unravel <> knot ravel
+glad <> sad
+badly <> advantageously well
+frigidness <> hotness
+emptiness <> fullness
+impenetrability <> penetrability
+unmusical <> musical melodious
+liberator <> captor
+desist <> consume
+strict <> indulgent
+give <> take
+willingness <> unwillingness
+formalize <> invalidate
+saleable <> unsalable
+variability <> invariability evenness
+tasty <> tasteless
+disadvantage <> advantage
+inward <> outward
+laugh <> cry
+single-breasted <> double-breasted
+activeness <> inaction inactivity
+compliance <> noncompliance nonconformity
+disesteem <> esteem respect
+scent <> deodorize
+optimism <> pessimism
+soft <> hard forte unvoiced loud
+inconveniently <> conveniently
+daughter <> boy son
+inadequacy <> adequacy
+unsinkable <> sinkable
+responsibility <> irresponsibility
+middling <> immoderately unreasonably
+incoming <> outgoing
+inorganically <> organically
+arrive <> leave
+traditional <> nontraditional
+completeness <> incompleteness
+impermissible <> permissible
+commodious <> incommodious
+postnatal <> prenatal
+judgmental <> nonjudgmental
+suitably <> unsuitably inappropriately
+depressurize <> pressurize
+noninterference <> interference intervention
+offense <> defense
+audible <> inaudible
+overvalue <> underestimate undervalue
+sloppiness <> carefulness
+cipher <> decode
+learned <> unconditioned
+nearsighted <> farsighted
+esteem <> disesteem disrespect
+suitableness <> unsuitability
+have <> refuse abstain lack
+unvoiced <> voiced
+minus <> plus
+irrelevancy <> relevance
+sensitiveness <> insensitivity
+negativeness <> positiveness
+tastelessly <> tastefully
+boy <> girl daughter
+terminate <> begin
+destabilize <> stabilize
+gladden <> sadden
+unmarried <> married
+insecure <> secure
+spineless <> vertebrate
+revalue <> depreciate
+perpendicular <> oblique parallel inclined horizontal
+bump <> promote
+asymmetrical <> symmetrical
+rudely <> courteously politely
+coherency <> incoherence
+ventral <> dorsal
+recto <> verso
+incapability <> capability
+dehydrate <> hydrate
+abstinent <> drinker
+appointive <> elective
+unobtrusiveness <> obtrusiveness
+resoluteness <> irresoluteness
+downstream <> upstream upriver
+wariness <> unwariness
+classify <> declassify
+selfishness <> unselfishness
+unoriginal <> original
+fancy <> plain
+always <> never
+conform <> deviate
+aright <> incorrectly wrongly
+reversal <> affirmation
+unproductive <> productive
+anticlimactic <> climactic
+nonentity <> existence
+legato <> staccato
+one-dimensional <> multidimensional
+unfit <> fit qualify
+feminine <> neuter masculine
+advantageous <> disadvantageous
+destructiveness <> constructiveness
+debark <> embark
+stay <> change move depart
+youth <> aged
+gravity <> levity
+poor <> rich
+unconventional <> conventional
+unsystematic <> systematic
+good <> evilness evil badness bad
+ripe <> green
+limpidity <> obscurity
+lawfully <> unlawfully illicitly lawlessly illegitimately
+incisively <> inexactly imprecisely
+lengthwise <> crosswise
+politely <> discourteously impolitely
+unconstitutionally <> constitutionally
+unfavorable <> favorable
+harden <> soften
+hotfoot <> linger
+pull <> repel
+innumerate <> numerate
+hurriedly <> unhurriedly
+unwittingly <> wittingly knowingly
+eloquently <> inarticulately
+release <> freeze block
+instability <> stability
+nonfatal <> fatal
+dubiousness <> certainty
+admissibility <> inadmissibility
+tastelessness <> tastefulness
+intervention <> noninterference nonintervention
+concreteness <> abstractness
+unrighteous <> righteous
+synonymous <> antonymous
+hereafter <> past
+imprecision <> precision preciseness
+minor <> major
+stemmed <> stemless
+antonym <> antonym synonym
+sterile <> fertile
+unlock <> lock
+upwardly <> downward downwards down
+one-sided <> reversible multilateral
+individualize <> depersonalize
+incomplete <> complete
+concrete <> abstract
+illegal <> legal
+avoid <> confront validate
+neuter <> masculine feminine
+rejuvenate <> age
+solid <> liquid gaseous
+unlikeliness <> likeliness likelihood
+recessive <> dominant
+homologous <> analogous
+superior <> inferior subscript
+up <> downward downwards down
+war <> peace
+weakly <> strongly
+unknowable <> knowable
+incredulously <> credulously
+supersonic <> sonic subsonic
+commonly <> remarkably
+familiarity <> unfamiliarity
+inactivation <> activation
+saturated <> unsaturated
+chronically <> acutely
+masculine <> feminine neuter
+inquiry <> answer
+consciously <> unconsciously
+joy <> sorrow sadden
+pious <> impious
+roughen <> smooth
+inaccessibility <> availability
+manly <> unmanly
+unproductively <> profitably fruitfully productively
+changeless <> mutable
+impermanent <> permanent
+impermanence <> permanence
+terrestrial <> amphibious aquatic
+septic <> antiseptic
+unsettled <> settled
+wholesomeness <> unwholesomeness
+enlargement <> contraction
+walleyed <> cross-eyed
+unashamed <> ashamed
+encode <> decode
+fruitlessly <> profitably fruitfully productively
+unsalable <> salable
+piety <> impiety
+courteously <> discourteously impolitely
+confined <> unconfined invasive
+adroit <> maladroit
+mindfully <> inadvertently
+south <> north
+background <> foreground
+descend <> rise ascend
+bivalve <> univalve
+injustice <> justice
+burden <> unburden
+stingy <> ample generous
+purposeless <> purposeful
+legalize <> outlaw
+potency <> impotence impotency
+aunty <> uncle
+particularize <> generalize
+find <> lose
+deter <> persuade
+incompetent <> competent
+crookedness <> straightness
+expressible <> inexpressible
+calculable <> incalculable
+brace <> sedate
+imperfectness <> perfection
+simple <> complex compound
+employable <> unemployable
+center <> right
+order <> disorder disorderliness
+much <> little
+cool <> warm heat
+headed <> headless
+buckle <> unbuckle
+irreconcilable <> reconcilable
+unjustly <> justly
+impenitent <> repentant penitent
+quietly <> noisily loudly
+suspect <> trust
+submerged <> afloat aground
+inadequately <> adequately
+sincerely <> insincerely
+slenderness <> thickness
+unsuitability <> suitableness suitability
+hotness <> coldness
+sagely <> foolishly
+regain <> lose
+abstain <> consume
+inconsolable <> consolable
+diverge <> converge
+confidence <> diffidence
+moral <> immoral amoral
+influx <> outflow
+legality <> illegality
+wane <> wax
+roofless <> roofed
+nominative <> oblique
+there <> here
+intransitive <> transitive
+satisfactorily <> unsatisfactorily
+vertical <> inclined
+worthiness <> unworthiness
+wintery <> vernal summery autumnal
+sober <> intoxicated playful
+road <> cross-country
+think <> forget
+leading <> following
+quantitative <> syllabic accentual
+concern <> unconcern
+universal <> particular
+unflattering <> flattering
+hateful <> lovable
+salable <> unsalable
+nonmilitary <> military
+fruitlessness <> fruitfulness
+wild <> tame
+addition <> subtraction
+compression <> decompression
+explicable <> inexplicable
+minority <> majority
+unofficial <> official
+dangerous <> safe
+unprintable <> printable
+available <> unavailable
+securely <> insecurely
+seemliness <> unseemliness
+swear <> mistrust distrust
+hubby <> wife
+rich <> poor
+orientate <> disorient
+contraindicate <> indicate
+humidify <> dehumidify
+equally <> unequally unevenly
+decompress <> tense compress
+discolor <> color
+unknowingly <> wittingly knowingly
+comparably <> incomparably
+nonoperational <> operational
+honor <> dishonor disrespect
+unlikelihood <> likeliness likelihood
+involuntariness <> willingness
+directly <> indirectly
+acquire <> lose
+lengthways <> crosswise
+cephalic <> caudal
+speedup <> deceleration
+incorrect <> right correct
+unsatisfactorily <> satisfactorily
+unhardened <> tempered
+immateriality <> corporeality
+conclusively <> inconclusively
+lidded <> lidless
+piece <> disassemble
+uncover <> cover
+sound <> silence unsound
+harmfully <> harmlessly
+irresponsibility <> responsibility
+flexible <> uncompromising inflexible
+noisily <> quietly
+innate <> conditioned
+repentant <> unrepentant impenitent
+enchant <> disenchant
+parasite <> host
+fairly <> unfairly immoderately
+aware <> unaware unmindful unwitting
+launch <> abolish
+stick <> dislodge move
+stigmatic <> astigmatic
+acuteness <> obtuseness
+decontaminate <> contaminate
+expound <> contract
+overhead <> surface subsurface
+unburden <> burden
+operative <> inoperative medical
+luckiness <> misfortune
+free <> freeze block
+con <> pro
+unconcerned <> concerned
+immersion <> egress
+undeveloped <> developed
+refrain <> consume act
+condemnation <> acquittal approbation
+disarmament <> armament
+self-pollination <> cross-pollination
+drive <> attract
+unvarying <> multiform varied
+enforce <> exempt
+nonrigid <> rigid
+absorb <> emit
+finish <> begin beginning start
+availability <> inaccessibility
+demand <> supply obviate
+pride <> humility
+ability <> inability
+disrobe <> dress
+activate <> inactivate
+start <> middle end
+satisfactory <> unsatisfactory
+nominal <> real
+omit <> include
+justness <> injustice
+expire <> inhale
+loaner <> borrower
+wisdom <> folly unsoundness
+mistrust <> trust
+distrust <> trust
+unhealthful <> healthful sanitary
+unveil <> veil
+aurora <> sunset
+declarative <> interrogatory interrogative
+overarm <> underhand
+simpleness <> difficulty complexity
+weedy <> weedless
+waive <> claim
+internationalism <> nationalism
+downplay <> foreground
+unpropitious <> propitious
+efficaciously <> ineffectively
+robust <> frail
+positive <> negative neutral
+loudly <> piano softly
+undeceive <> deceive
+awake <> asleep
+involuntarily <> voluntarily
+centripetal <> centrifugal
+ambidextrous <> left-handed right-handed
+cognizable <> unknowable
+widen <> narrow
+avoidable <> inevitable
+exciting <> unexciting
+gracelessly <> gracefully graciously
+excusably <> unpardonably unforgivably inexcusably
+unendurable <> tolerable
+softness <> sharpness distinctness
+member <> nonmember
+abstainer <> drinker
+evenly <> unequally unevenly
+crossbred <> purebred
+inland <> coastal
+nontraditional <> traditional
+illicitly <> licitly legitimately
+licitly <> illicitly lawlessly illegitimately
+focus <> blur
+upper-class <> lower-class middle-class
+due <> undue
+sunset <> sunrise
+irregularly <> regularly
+basic <> incidental
+operate <> disengage malfunction
+incomprehension <> comprehension
+advisedly <> accidentally unintentionally
+unhesitatingly <> hesitantly
+selfless <> egoistic
+dilate <> contract
+admissible <> inadmissible
+compress <> decompress
+decisiveness <> indecision
+soundness <> unsoundness
+inaccuracy <> accuracy
+externally <> internally
+recede <> advance gain
+necessary <> unnecessary inessential
+theoretically <> empirically
+inadvertently <> wittingly knowingly
+nonrepresentational <> representational
+restricted <> unrestricted
+abnormal <> normal
+irregularity <> regularity
+content <> discontented discontent
+unprincipled <> principled
+unenterprising <> enterprising
+early <> middle late
+discomfort <> comfort
+colorless <> colorful
+formality <> informality
+decency <> indecency
+rise <> set fall wane descent
+weep <> laugh
+profoundness <> shallowness superficiality
+enlightened <> unenlightened
+extrusive <> intrusive
+conciliatory <> uncompromising antagonistic
+float <> sink
+cenobite <> eremite
+ravish <> disenchant
+custom <> ready-made
+humanely <> inhumanely
+dissimilitude <> similitude likeness
+illegitimately <> licitly legitimately
+figure <> ground
+fogginess <> sharpness distinctness
+blunt <> enliven sharpen
+interference <> noninterference nonintervention
+generic <> varietal
+helpful <> unhelpful
+thoughtfulness <> thoughtlessness
+inexpedient <> expedient
+enjoyably <> disagreeably
+immoral <> moral amoral
+downward <> upwardly upward upwards up
+worthy <> unworthy
+unshod <> shod
+late <> early middle
+tractability <> intractability
+conformism <> nonconformity
+ably <> incompetently
+accustomed <> unaccustomed
+sadistic <> masochistic
+jubilantly <> unhappily
+dejected <> elated
+operable <> inoperable
+take <> disclaim abstain refuse obviate give
+tense <> relax
+finely <> coarsely
+injured <> uninjured
+minuscule <> uppercase
+unreliable <> dependable reliable
+rehabilitative <> punitive
+charitable <> uncharitable
+toadstool <> mushroom
+uncut <> cut mown
+licit <> illicit
+refresh <> tire
+stabilize <> destabilize
+raze <> raise
+nonessential <> essential
+cautiously <> carelessly
+fullness <> emptiness
+unarmored <> armored
+paranormal <> sensory normal
+drop <> recuperate sharpen
+denationalize <> nationalize
+absolute <> relative
+wish <> begrudge
+asymmetry <> symmetry
+unjust <> just equitable fair
+competitive <> noncompetitive
+consume <> abstain
+unhurried <> hurried
+green <> ripe
+nonadhesive <> adhesive
+tangle <> unsnarl disentangle unravel
+side <> top bottom
+inadmissible <> admissible
+carelessly <> carefully
+self-employed <> salaried
+leafy <> leafless
+snarl <> unsnarl
+imperishable <> perishable
+mindfulness <> heedlessness
+bridgeable <> unbridgeable
+inexperience <> experience
+unpretentious <> pretentious ostentatious
+colorful <> colorless
+oblique <> parallel perpendicular
+humble <> proud
+nonproliferation <> proliferation
+benevolence <> malevolence
+unsuitably <> appropriately suitably
+rely <> mistrust distrust
+residential <> nonresidential
+shrink <> expand stretch
+inviting <> uninviting
+sincere <> insincere
+selflessness <> egoism
+alternate <> opposite
+lower-class <> middle-class upper-class
+thinkable <> unthinkable
+rivalry <> cooperation
+complete <> incomplete
+compact <> loose decompress
+frivolousness <> seriousness
+agreeably <> disagreeably unpleasantly
+superiority <> inferiority
+closing <> opening
+intolerably <> tolerably acceptably
+attributive <> predicative
+mendaciously <> truthfully
+able <> unable
+astern <> fore
+mat <> unsnarl disentangle
+competent <> incompetent
+wrap <> unwind unwrap
+abnormality <> normality
+nonnative <> native
+convincingly <> unconvincingly
+hopefulness <> hopelessness
+unofficially <> officially
+head <> tail foot rear
+provincial <> cosmopolitan
+part <> wholly
+disconnected <> legato
+unwanted <> wanted
+heavenly <> earthly
+inkiness <> white
+frivolous <> serious
+tastefulness <> tastelessness
+detain <> free rush
+sinkable <> unsinkable
+merciful <> merciless
+right-handed <> left-handed ambidextrous
+restrained <> unrestrained
+atypical <> typical
+somewhat <> immoderately unreasonably
+satisfy <> dissatisfy
+heedfully <> inadvertently
+absorptive <> nonabsorbent
+incomparably <> comparably
+soberness <> drunkenness
+inaction <> activeness activity action
+sunken <> afloat
+salaried <> freelance
+entangle <> unsnarl disentangle
+opprobrium <> fame
+joyousness <> sorrow
+stiff <> impotent
+acidic <> alkaline
+opaque <> clear
+subsurface <> overhead surface
+uncertain <> sure certain
+explicitly <> implicitly
+end <> beginning middle begin
+health <> illness
+disgrace <> honor
+greenness <> ripeness
+sparingly <> amply
+feelingly <> unfeelingly
+employ <> unemployment fire
+finite <> infinite
+least <> most
+down <> upwardly upward upwards up
+sanitary <> unsanitary
+openness <> closeness
+unharness <> harness
+nonalcoholic <> alcoholic
+moderately <> immoderately unreasonably
+above <> below
+home <> away
+coldness <> hotness
+growth <> decrease
+forbid <> allow permit
+blacken <> whiten
+negative <> neutral positive
+capability <> incapability
+backward <> ahead forward
+lovable <> hateful
+weedless <> weedy
+communicate <> excommunicate
+redress <> wrong
+formalism <> imitation
+yesteryear <> future
+unfitness <> ability fitness
+onshore <> offshore
+insanely <> sanely
+mend <> break
+unusual <> familiar
+stinginess <> generosity
+grime <> clean
+productive <> unproductive consumptive
+concavely <> convexly
+attentiveness <> inattentiveness
+vulnerability <> invulnerability
+retail <> wholesale
+shop <> boycott
+unneeded <> necessary
+explosive <> nonexplosive
+prudently <> imprudently
+undiplomatic <> diplomatic
+armed <> unarmed
+heedlessness <> attentiveness
+dishonestly <> honestly
+acceptably <> intolerably unacceptably
+below <> above upstairs
+lean <> rich fat
+self-centered <> altruistic
+manned <> unmanned
+heavily <> lightly
+stemless <> stemmed
+unpleasant <> pleasant
+adequacy <> inadequacy insufficiency
+conscious <> unconscious
+deceive <> undeceive
+disfranchise <> enfranchise
+heterogeneous <> homogeneous
+inextinguishable <> extinguishable
+wildness <> tameness
+left <> center right
+inappropriately <> appropriately suitably
+unobtrusively <> obtrusively
+subscript <> superscript
+unconfined <> confined
+hate <> love
+decisively <> indecisively
+downriver <> upstream upriver
+biped <> quadruped quadrupedal
+inaccurately <> accurately
+analogous <> homologous
+verity <> falsity
+immobilize <> unblock unfreeze
+noble <> noblewoman
+extant <> extinct
+reduce <> expand gain oxidize
+except <> include
+unconscious <> conscious
+crooked <> straight
+awful <> nice
+intrastate <> interstate
+exterior <> interior inside
+productively <> unprofitably fruitlessly unproductively
+detach <> attach
+unhappy <> euphoric happy
+purity <> impurity
+honorable <> dishonest dishonorable
+befittingly <> inappropriately unsuitably
+front <> back rear
+enfranchise <> disenfranchise
+two-handed <> right-handed left-handed
+uncrowded <> crowded
+diffuse <> hard
+curdle <> homogenize
+unobjectionable <> dirty
+undependable <> dependable reliable
+upwards <> downward downwards down
+unpin <> pin
+legible <> illegible
+desirability <> undesirability
+accommodate <> disoblige
+drunk <> sober
+seldom <> often
+reassure <> worry
+lawfulness <> unlawfulness
+permit <> disallow
+wholly <> partly
+intensity <> softness
+unholy <> holy
+undetermined <> determinate determined
+wanted <> unwanted
+titled <> untitled
+disinflation <> inflation deflation
+exempt <> nonexempt taxable enforce
+unarmed <> armed
+inconsiderateness <> thoughtfulness consideration
+chariness <> unwariness
+suitability <> unsuitability
+grownup <> juvenile
+arrogate <> forfeit
+admit <> deny reject exclude
+verbal <> numerical
+discomposure <> composure
+frontwards <> backward
+offset <> middle end
+stretch <> shrink
+nobleman <> noblewoman
+determinable <> indeterminable
+incoherently <> coherently
+restore <> break
+pressurize <> depressurize
+onside <> offside
+big <> little small
+nonfat <> fatty
+unclasp <> clasp
+exhaustible <> inexhaustible
+overestimate <> underestimate undervalue
+irregular <> regular
+arrange <> disarrange
+divergence <> convergence
+contemptible <> estimable
+regulate <> deregulate
+large <> little small
+insufficiency <> adequacy sufficiency
+daring <> timidity
+record <> erase
+bend <> unbend straighten
+noncompetitive <> competitive
+unfaithfulness <> faithfulness
+concord <> disagree
+enlarge <> reduce contract
+conceal <> show
+patrician <> plebeian proletarian
+abstract <> concrete
+employer <> employee
+nonexistence <> existence
+energetic <> lethargic
+settle <> float
+beneficence <> maleficence
+nonalignment <> alignment
+competition <> cooperation
+quadruped <> biped bipedal
+conformity <> noncompliance nonconformity
+drinkable <> undrinkable
+natural <> sharp flat
+heaviness <> lightness
+disobedience <> compliance obedience
+operational <> nonoperational
+cheerlessly <> cheerfully
+unfavorably <> favorably
+fleece <> undercharge
+harmful <> harmless advantageous innocuous
+allow <> disallow forbid
+set <> rise
+delay <> rush
+unvaried <> varied
+intemperance <> temperance
+imperfectly <> perfectly
+piously <> impiously
+recreate <> dishearten
+inadvisable <> advisable
+unemployment <> employment
+unnaturalness <> naturalness
+inequity <> equity fairness
+yoke <> unyoke
+inactive <> active operational
+cross <> uncross
+crude <> refined
+speedily <> slowly
+ground <> figure
+incompatibly <> compatibly
+hastily <> unhurriedly
+wisely <> foolishly
+vowel <> consonant
+abstractly <> concretely
+prudent <> imprudent
+nonconformity <> conformism conformity
+selfishly <> unselfishly
+utility <> uselessness
+disable <> enable
+worldliness <> naivete
+self-doubt <> confidence
+connotative <> denotative
+humorless <> humorous
+worthless <> valuable
+look <> back
+tallness <> shortness
+fearlessly <> fearfully
+intangibility <> tangibility
+export <> import
+insectivorous <> carnivorous herbivorous omnivorous
+back <> front advance veer ahead forward
+sadist <> masochist
+liberate <> confine
+proscribe <> allow permit
+desirable <> undesirable
+farsightedness <> myopia
+dishonorably <> honorably
+unknown <> known
+self-centeredness <> altruism
+white <> black blacken
+unilaterally <> bilaterally
+wrongness <> rightness correctness
+precisely <> inexactly imprecisely
+avow <> disavow
+unnoticeable <> noticeable obtrusive
+nonintervention <> interference intervention
+service <> disservice
+unsaddle <> saddle
+benignity <> malignancy malignity
+prewar <> postwar
+chromatic <> diatonic
+leanness <> fatness
+advantage <> penalty disadvantage
+expression <> misconstruction
+fasten <> unfasten
+rising <> fall
+profound <> superficial
+acclivity <> descent
+red <> gain
+hasten <> linger
+viviparous <> oviparous
+analyze <> synthesize
+permeability <> impermeability
+insolubility <> solubility
+propitiously <> inauspiciously
+thicken <> thin
+outside <> inside indoors indoor
+blonde <> brunet
+intended <> unintended
+strike <> miss
+constructive <> destructive
+fair <> unfair unfairly partial foul
+intractable <> tractable
+unworthiness <> worthiness appropriateness
+inadmissibility <> admissibility
+accentual <> quantitative syllabic
+weaken <> strengthen escalate
+stabilization <> destabilization
+pardonable <> unpardonable
+harsh <> fine
+finitely <> infinitely
+softball <> hardball
+realism <> unreality
+evil <> goodness good
+faithfully <> unreliably unfaithfully
+land <> sea air
+constructiveness <> destructiveness
+nonabsorbent <> absorbent
+reliably <> unreliably
+concerned <> unconcerned
+disentangle <> snarl entangle
+effluence <> influx inflow
+no-go <> go
+wake <> sleep
+incredibly <> believably credibly
+herbivorous <> omnivorous insectivorous carnivorous
+middle-class <> upper-class lower-class
+cooked <> raw
+simplify <> complicate
+willing <> unwilling
+unobtrusive <> obtrusive
+neatness <> untidiness
+competently <> incompetently
+traceable <> untraceable
+tasteless <> tasteful tasty
+progress <> recede regress
+ending <> beginning middle
+speed <> decelerate linger
+disadvantageously <> advantageously well
+anti <> pro
+step-down <> increase
+conditional <> unconditional
+closed <> open
+nonobservance <> observance
+coil <> uncoil
+acknowledged <> unacknowledged
+old <> young new
+choke <> unclog
+flatter <> disparage
+acute <> obtuse chronic
+attractively <> unattractively
+unpatriotic <> patriotic
+maximum <> minimum minimal
+explicit <> implicit
+endemic <> epidemic
+inside <> outdoors outside
+disorder <> order orderliness
+issue <> recall
+cursed <> blessed
+powerlessness <> power
+nationalism <> multiculturalism internationalism
+digital <> analogue
+nontaxable <> taxable
+bluntness <> sharpness
+delete <> record
+undignified <> dignified
+incontestable <> contestable
+bloodless <> bloody
+weakness <> strength
+adjust <> skew
+unhealthy <> healthy
+recuperate <> deteriorate
+saneness <> insanity
+destructive <> constructive
+magnetize <> demagnetize
+attack <> defend
+inconspicuously <> conspicuously
+walk <> ride
+external <> internal
+nondrinker <> drinker
+upwind <> downwind windward
+unprofitable <> profitable
+lidless <> lidded
+legless <> legged
+avouch <> disavow
+accurate <> inaccurate
+intense <> mild
+steady <> unsteady unsteadily
+refuse <> accept allow admit
+retard <> accelerate
+demilitarize <> militarize
+thick <> thinly thin
+temperate <> intemperate
+debarkation <> embarkation
+cohesiveness <> incoherence
+fitly <> unsuitably inappropriately
+concept <> misconception
+atypically <> typically
+given <> taken
+impersonally <> personally
+abundance <> scarcity
+particularity <> generality
+mother <> father
+layman <> clergyman
+forgo <> claim postdate
+inconspicuous <> conspicuous
+extroversion <> introversion
+endure <> enjoy
+excited <> unexcited
+wholesale <> retail
+custom-built <> ready-made
+unreliably <> reliably dependably
+local <> general national express
+relax <> strain tense
+armored <> unarmored
+curved <> straight
+legitimize <> outlaw
+blubber <> leanness
+particular <> general
+advised <> ill-advised
+ingress <> egress
+actual <> potential
+partisan <> nonpartisan
+contract <> expand stretch
+applied <> theoretical
+awkward <> graceful
+syllabic <> accentual quantitative
+exogenous <> endogenous
+unmarked <> marked
+intensive <> extensive
+amateur <> professional
+assure <> worry
+ceremonially <> unceremoniously
+reverentially <> irreverently
+delight <> disenchant displease
+audibility <> inaudibility
+conclusion <> beginning
+applaud <> boo
+brunette <> blond
+heed <> inattentiveness
+unnaturally <> naturally
+destructibility <> indestructibility
+nonresident <> resident
+year-round <> seasonal
+abridge <> expand
+likeliness <> unlikeliness unlikelihood
+licking <> victory
+keep <> break let discontinue lose
+unavailability <> availability accessibility
+dehumanize <> humanize
+concave <> convex
+expediency <> inexpediency
+malignancy <> benignity
+hopelessly <> hopefully
+passably <> immoderately unreasonably
+federal <> unitary
+acquittal <> conviction
+auntie <> uncle
+whiten <> blacken
+nay <> yea
+noncombustible <> combustible
+ready <> unready
+inaccessible <> accessible
+penetrability <> impenetrability
+haploid <> diploid
+conventional <> unconventional
+lucidness <> obscurity
+future <> past present
+formal <> informal
+inexcusably <> justifiably pardonably excusably
+opportune <> inopportune
+just <> unjust inequitable unfair
+stimulate <> sedate stifle
+inviolable <> violable
+impotency <> potency power
+bank <> distrust mistrust
+full-time <> part-time
+fire <> hire
+nonpayment <> payment
+unforgivably <> pardonably excusably
+overcharge <> undercharge
+cash <> credit
+diminution <> increase augmentation
+three-dimensional <> linear
+outgoing <> incoming
+unacceptably <> tolerably acceptably
+activation <> deactivation inactivation
+organize <> disorganize
+varietal <> generic
+unevenly <> equally evenly
+former <> latter
+security <> insecurity
+disrespect <> esteem respect
+bisexual <> heterosexual homosexual
+accidentally <> deliberately intentionally
+unfamiliarity <> familiarity
+carefulness <> carelessness
+unmanned <> manned
+opposed <> unopposed
+received <> nonstandard
+unwary <> wary
+sanity <> insanity
+reducible <> irreducible
+tastefully <> tastelessly
+existence <> nonexistence
+inopportunely <> opportunely
+brightness <> dullness
+afloat <> aground sunken
+homosexual <> bisexual heterosexual
+absorbent <> nonabsorbent
+unbroken <> broken
+unforgiving <> forgiving
+criticize <> praise
+harmlessly <> harmfully
+unconfirmed <> confirmed
+irrational <> rational
+inexpensive <> expensive
+lengthen <> shorten
+uncommunicative <> communicative
+unfashionable <> fashionable
+earthly <> heavenly
+self-interest <> altruism
+sincerity <> frivolity insincerity
+nonaddictive <> addictive
+cubic <> linear
+nonpartisan <> partisan
+inoperative <> operative
+identifiable <> unidentifiable
+spiny <> spineless
+okay <> disapprove
+joyfulness <> sorrow
+sectarian <> nonsectarian
+injudiciously <> judiciously
+rightness <> wrongness incorrectness
+wittingly <> unknowingly unwittingly
+stability <> instability
+soften <> harden sharpen stand
+bottom <> side top
+being <> nonexistence
+unconditionally <> conditionally
+unhook <> hook
+deaf <> hearing
+rough <> smooth cut
+exclusion <> inclusion
+young <> old aged
+association <> disassociation
+many-sided <> unilateral
+sensitize <> desensitize
+close <> open distant far
+blackness <> white
+exasperate <> better
+compatibly <> incompatibly
+indirectly <> directly
+classified <> unclassified
+positiveness <> negativeness negativity
+dubiety <> certainty
+woodenly <> gracefully graciously
+unwoven <> woven
+freeze <> unblock unfreeze
+direct <> inverse collateral retrograde
+dilute <> undiluted
+accessibility <> inaccessibility unavailability
+debit <> credit
+dead <> animate alive living live
+legibly <> illegibly
+wrongly <> right correctly
+east <> west
+unselfishness <> selfishness
+judiciously <> injudiciously
+frequent <> boycott
+unsoundness <> soundness
+theoretic <> empirical
+thin <> thick thicken gain fat full thickly
+trust <> mistrust distrust
+thoughtful <> thoughtless
+overbid <> underbid
+manlike <> unmanly
+tautness <> looseness
+unmanly <> manly manfully
+secure <> insecure unprotected unfasten
+downwards <> upwardly upward upwards up
+specific <> general nonspecific
+hardiness <> timidity
+profundity <> shallowness superficiality
+southern <> northern
+justify <> blame
+lucidity <> obscurity
+congruity <> incongruity
+exclude <> include admit
+unclothe <> dress
+analytic <> synthetic
+wrinkled <> unwrinkled
+characteristically <> uncharacteristically
+outward <> inward
+unprocessed <> refined
+dry <> wet sweet
+roughness <> smoothness
+maxi <> mini midi
+cleanliness <> uncleanliness
+despair <> hope
+dark <> light day
+likeness <> dissimilitude unlikeness
+fearfully <> fearlessly
+unadvised <> well-advised
+socialist <> capitalistic
+fear <> fearlessness
+naturally <> unnaturally
+deterrence <> incentive
+incorrectness <> rightness correctness
+disorganize <> organize
+badness <> good goodness
+inexcusable <> excusable
+joyful <> sorrowful
+employee <> employer
+sensitivity <> insensitivity
+depersonalize <> personalize
+demanding <> undemanding
+classicist <> romanticist
+diversify <> specialize
+diminish <> increase
+appetizing <> unappetizing
+circumstantially <> deliberately
+invisibly <> visibly
+fag <> refresh
+abolish <> establish
+complain <> cheer
+ungratefully <> gratefully appreciatively
+hawk <> dove
+sure <> unsure uncertain
+love <> hate
+flatten <> sharpen
+reverend <> layman
+decorous <> indecorous
+curse <> bless communicate
+hopefully <> hopelessly
+liquid <> gaseous solid
+stop <> continue begin start
+fixity <> mutability
+confirm <> negate
+past <> present future
+hyperthyroidism <> hypothyroidism
+indiscreetly <> discreetly
+downwind <> upwind leeward
+evenness <> variability unevenness
+preventive <> permissive
+progressive <> regressive conservative
+open <> closed covert shut close fold
+pardonably <> unpardonably unforgivably inexcusably
+bemire <> clean
+son <> girl daughter
+hope <> despair
+uncommon <> common
+unicameral <> bicameral
+decrease <> increment increase
+energize <> sedate
+multiform <> uniform
+resist <> surrender
+stressed <> unstressed
+fruitfully <> unprofitably fruitlessly unproductively
+willingly <> unwillingly
+invisibility <> visibility
+reduction <> increase
+fashionable <> unfashionable
+attraction <> repulsion
+hopeful <> hopeless
+lock <> unlock
+unfamiliar <> familiar
+worthlessness <> worth
+unashamedly <> ashamedly
+cheerlessness <> cheerfulness
+two-dimensional <> cubic linear
+crosswise <> lengthwise
+unwisely <> wisely
+bigness <> littleness smallness
+aboveboard <> dishonestly
+intramural <> extramural
+unpolished <> polished
+reverent <> irreverent
+activity <> inactivity inaction
+anticyclone <> cyclone
+unblock <> freeze block
+unmask <> mask
+increment <> decrease
+professional <> nonprofessional unprofessional amateur
+disconsolate <> consolable
+necessarily <> unnecessarily
+lender <> borrower
+mendacity <> veracity
+advisable <> inadvisable
+jumpy <> smooth
+inconclusive <> conclusive
+nonrenewable <> renewable
+inconvenient <> convenient
+cold <> hot hotness
+add <> subtract
+unintentionally <> deliberately intentionally
+intrinsic <> extrinsic
+rotten <> fresh
+so-so <> intolerably unacceptably
+unpopularity <> popularity
+featherless <> feathered
+cross-fertilization <> self-fertilization
+leave <> arrive disinherit enter
+largeness <> littleness smallness
+separate <> joint unite
+insanitary <> sanitary
+decompression <> compression
+unworthy <> worthy
+damn <> bless
+empirically <> theoretically
+debilitating <> invigorating
+easiness <> difficulty
+stifle <> stimulate
+competence <> incompetence
+gracefully <> ungracefully ungraciously
+immutability <> mutability
+singular <> plural
+attendance <> nonattendance
+inactivity <> activity activeness action
+celebrity <> infamy
+aunt <> uncle
+fairness <> inequity unfairness
+noncommercial <> commercial
+rightfulness <> wrongfulness wrong
+sociable <> unsociable
+articulately <> inarticulately
+outwards <> inward
+ahead <> back backward
+first <> middle end last intermediate
+aground <> afloat sunken
+orderliness <> disorder disorderliness
+irrelevance <> relevance
+lively <> dull
+armament <> disarmament disarming
+unfasten <> fasten
+stand <> sit lie
+exactly <> inexactly imprecisely
+optimist <> pessimist
+preventative <> permissive
+synthetic <> analytic
+reject <> approve accept admit
+attach <> detach
+unconnected <> connected
+compatible <> incompatible
+fearfulness <> fearlessness
+value <> disesteem disrespect
+raw <> cooked
+impermeable <> permeable
+recover <> deteriorate
+thither <> here
+sponsor <> boycott
+seriousness <> frivolity
+real <> unreal nominal insubstantial
+unsafe <> safe secure
+fuzziness <> sharpness distinctness
+exhale <> inhale
+imprecisely <> exactly precisely
+objectify <> personalize
+careless <> careful
+crowded <> uncrowded
+negativity <> positiveness
+reverse <> forward obverse
+hesitatingly <> unhesitatingly
+soak <> undercharge
+singly <> multiply
+whisper <> shout
+headless <> headed
+unfathomable <> fathomable
+opacity <> clarity transparency
+satisfaction <> dissatisfaction
+enjoy <> suffer
+incomprehensible <> explicable comprehensible
+sexual <> asexual
+concretely <> abstractly
+omnivorous <> insectivorous carnivorous herbivorous
+fastness <> looseness
+near <> far
+dethrone <> enthrone
+code <> decode
+girl <> boy son
+cheerfulness <> cheerlessness
+humbleness <> pride
+committed <> uncommitted
+inexact <> exact
+romanticism <> classicism
+nonexistent <> existent
+incompatible <> synergistic compatible congenial
+similitude <> dissimilitude unlikeness
+frozen <> unfrozen
+king <> queen
+socialistic <> capitalistic
+wetness <> dryness
+cyclone <> anticyclone
+tardiness <> punctuality
+yin <> yang
+excite <> calm stifle
+safety <> danger
+zenith <> nadir
+crowned <> uncrowned
+inauspiciously <> propitiously auspiciously
+collected <> uncollected
+sharp <> flat natural
+uncollected <> gathered collected
+superficial <> profound
+idle <> run busy work
+breathless <> breathing
+inferior <> superscript
+nationalize <> denationalize
+unhappily <> happily
+indirect <> direct lineal
+unaesthetic <> aesthetic
+synonym <> antonym
+unfairness <> equity fairness
+distinctness <> softness indistinctness
+active <> inactive dormant passive quiet contemplative extinct
+reliable <> undependable unreliable
+disinclination <> inclination
+permanent <> impermanent
+bull <> bear
+smoker <> nonsmoker
+figuratively <> literally
+settled <> unsettled
+seedy <> seedless
+opposite <> alternate synonym
+inconspicuousness <> conspicuousness
+dress <> undress
+charge <> calm discharge
+profit <> lose
+segregate <> desegregate
+hardihood <> timidity
+inexhaustible <> exhaustible
+wired <> wireless
+compatibility <> incompatibility
+opaqueness <> clarity
+malady <> wellness
+manful <> unmanly
+resolution <> preparation irresoluteness
+weary <> refresh
+glorious <> inglorious
+innocent <> guilty
+dismantlement <> assembly
+whole <> fractional half partly
+gross <> net
+steep <> gradual
+absolve <> blame
+calm <> stormy discomposure
+on-site <> off-site
+impropriety <> propriety
+fidelity <> unfaithfulness infidelity
+asymmetric <> symmetrical
+dilution <> concentration
+unbuckle <> buckle
+flat <> natural sharp indirectly
+unoccupied <> occupied
+leafless <> leafy
+wintry <> autumnal vernal summery
+insensitivity <> sensitiveness sensitivity
+vernal <> summery autumnal wintry
+demobilize <> mobilize
+ready-made <> custom-made
+diligent <> negligent
+unpopular <> popular
+thickly <> thinly
+fearful <> brave
+pigeon-toed <> splayfooted
+lose <> profit
+decently <> indecently improperly
+discontinuance <> continuation continuance
+joyless <> joyous
+taken <> given
+sit <> stand lie
+adoptive <> native biological
+returnable <> nonreturnable
+eatable <> inedible
+fruitful <> unfruitful
+filial <> parental
+lawlessly <> lawfully
+miscarry <> succeed
+custom-made <> ready-made
+oviparous <> viviparous
+inner <> outer
+consanguinity <> affinity
+profitably <> unprofitably fruitlessly unproductively
+mobilize <> demobilize
+androgynous <> female male
+expedience <> inexpediency
+likelihood <> unlikeliness unlikelihood
+disincline <> dispose
+holy <> unholy
+unconstitutional <> constitutional
+pro-choice <> pro-life
+purge <> rehabilitate
+desirableness <> undesirability
+clean <> dirty unfairly unclean
+impotence <> potency power
+soft-boiled <> hardhearted
+maximize <> minimize
+competency <> incompetence
+interdict <> allow permit
+incompetence <> competence
+nonattendance <> attendance
+variance <> invariability
+unfashionably <> fashionably
+juvenile <> adult
+lie <> stand arise
+complainant <> defendant
+partiality <> impartiality
+centrifugal <> centripetal
+adopted <> native
+strap <> unstrap
+pleasantly <> disagreeably unpleasantly
+mutability <> immutability
+parallelogram <> trapezium
+encipher <> decode
+unorganized <> organized
+luckily <> unluckily unfortunately
+prudence <> imprudence
+out-of-door <> indoor
+stillness <> motion
+inoperable <> operable
+inextricable <> extricable
+uncritically <> critically
+uncross <> cross
+critically <> uncritically
+feed <> starve
+enemy <> friend
+feature <> lack
+clot <> homogenize
+walk-on <> speaking
+asymmetrically <> symmetrically
+appearance <> disappearance
+blandish <> disparage
+windward <> upwind leeward
+disinfect <> infect
+parent <> child
+ravel <> unravel
+deliberate <> unstudied
+brotherly <> sisterly
+heterogeneity <> homogeneity
+written <> spoken unwritten unscripted
+blow <> conserve
+harmony <> dissonance
+sunup <> sunset
+dehydrogenate <> hydrogenate
+deficiency <> adequacy sufficiency
+converge <> diverge
+unpardonably <> pardonably excusably
+decriminalize <> outlaw
+unpaid <> paid
+steadily <> unsteadily
+outwardly <> inwardly
+deciduous <> evergreen
+serious <> frivolous playful
+emotional <> unemotional cerebral
+black <> white whiten
+difficult <> easy manageable
+construction <> misconstruction
+tall <> short
+unpronounceable <> pronounceable
+different <> like
+common <> uncommon individual
+unconditioned <> conditioned
+detachable <> attachable
+reasonably <> immoderately unreasonably
+unkind <> kind
+ofttimes <> rarely infrequently
+decipher <> encode
+abstemious <> gluttonous
+accuracy <> inaccuracy
+bivalent <> univalent
+power <> powerlessness
+consideration <> thoughtlessness
+yes <> no
+inalienable <> alienable
+aboriginal <> nonnative
+proliferation <> nonproliferation
+worsen <> better
+destructible <> indestructible
+inconsistently <> consistently
+unwarily <> warily
+handiness <> unavailability inaccessibility
+civil <> uncivil sidereal
+unpremeditated <> premeditated
+woven <> unwoven
+exculpate <> convict
+abundant <> scarce
+sadly <> happily
+incorrectly <> right correctly
+easterly <> westerly
+absence <> presence
+dim <> undimmed focus brighten
+theoretical <> applied empirical
+identical <> fraternal
+invulnerability <> vulnerability
+nonmagnetic <> magnetic
+nonspecific <> specific
+clasp <> unclasp
+unscramble <> knot ravel
+peel <> dress
+figurative <> literal
+dirtiness <> cleanness
+considerateness <> thoughtlessness
+prohibit <> allow
+blame <> absolve
+multiculturalism <> nationalism
+directness <> indirectness
+timeliness <> untimeliness
+unorthodox <> orthodox
+believably <> unbelievably
+restrictiveness <> permissiveness
+enlightening <> unedifying
+drinker <> nondrinker
+tardily <> early quickly
+left-handed <> ambidextrous
+wife <> husband
+personalize <> depersonalize
+littleness <> bigness largeness
+sea <> air land
+deliberately <> accidentally unintentionally
+cognizant <> unaware
+hypoglycemia <> hyperglycemia
+living <> dead
+fortuitously <> unluckily unfortunately
+unfreeze <> freeze block
+heavy <> light
+unpalatable <> palatable
+some <> no all
+nonmetal <> metallic
+respect <> disesteem disrespect
+intrepidly <> fearfully
+infamy <> fame
+conditionally <> unconditionally
+hot <> cold
+inconstancy <> constancy
+molecular <> molar
+harness <> unharness
+conscript <> volunteer
+impreciseness <> precision preciseness
+ungraciously <> gracefully graciously
+original <> unoriginal
+will <> disinherit
+molar <> molecular
+blue-collar <> white-collar
+sufficiency <> inadequacy insufficiency
+dishonorable <> honest honorable glorious
+increase <> decrease
+inaccurate <> accurate
+flunk <> passing pass
+intentionally <> accidentally unintentionally
+unidentifiable <> identifiable
+unhitch <> hitch
+unluckily <> luckily fortunately
+unhappiness <> happiness
+permanency <> impermanence
+nonexempt <> exempt nontaxable
+naturalness <> unnaturalness
+epidemic <> endemic
+weak <> strong
+meet <> diverge
+bumpy <> smooth
+unnecessarily <> necessarily
+humorously <> humorlessly
+acutely <> chronically
+enfranchisement <> disenfranchisement
+confirmed <> unconfirmed
+inexactly <> exactly
+gathered <> uncollected
+flexibility <> inflexibility intractability
+contaminate <> decontaminate
+loop <> uncoil
+cheer <> complain dishearten
+nonliving <> animate
+prevent <> let
+frontward <> backward
+unrighteousness <> righteousness
+sedimentary <> igneous
+stinky <> fragrant
+perennial <> annual biennial
+verbosity <> terseness
+father <> mother
+unworldly <> worldly
+sundown <> sunrise
+humorous <> humorless
+unreasonably <> moderately reasonably
+hardball <> softball
+inexpressible <> expressible
+worry <> reassure
+deactivation <> activation
+cleanness <> dirtiness
+wealthiness <> poverty
+beginning <> end middle
+minimum <> maximum maximal
+discontinuation <> continuation continuance
+humility <> pride
+slow <> fast
+place <> divest
+exaggeration <> understatement
+partisanship <> impartiality
+deteriorate <> recuperate
+hurried <> unhurried
+wellness <> illness
+nonlinear <> linear
+desiccate <> hydrate
+unconsciousness <> consciousness
+hopeless <> hopeful
+moisturize <> dehumidify
+deaden <> enliven
+intelligible <> unintelligible
+sequestration <> integration
+noblewoman <> nobleman
+slim <> gain
+inconsistent <> consistent
+steadiness <> unsteadiness
+brighten <> darken overcast
+correctness <> wrongness incorrectness
+unfold <> fold
+rehabilitate <> purge
+circular <> square
+humane <> inhumane
+smooth <> rough roughen staccato
+leaded <> unleaded
+warily <> unwarily
+incombustible <> combustible
+certain <> uncertain unsealed unsure
+clarity <> obscurity
+incompetency <> competence
+seedless <> seedy
+well <> disadvantageously badly
+inpatient <> outpatient
+cross-pollination <> self-pollination
+synergistic <> antagonistic
+deflation <> inflation disinflation
+invulnerable <> vulnerable
+wireless <> wired
+unsympathetically <> sympathetically
+providently <> improvidently
+inexactness <> exactness
+unfaithfully <> reliably dependably faithfully
+cheerless <> cheerful
+conception <> misconception
+unsanitary <> sanitary
+unsympathetic <> sympathetic
+dullness <> sharpness
+indirectness <> directness
+disclaim <> claim
+attention <> inattention
+sunrise <> sunset
+upward <> downward downwards down
+indoors <> outdoors outside
+nonjudgmental <> judgmental
+flora <> fauna
+impolitely <> courteously politely
+lift <> lower fall
+uncrowned <> crowned
+veto <> allow permit
+decisive <> indecisive
+thickness <> thinness
+middle <> late early end beginning
+unopposed <> opposed
+dull <> lively sharpen sharp bright
+location <> studio
+dignified <> undignified
+explode <> implode
+quadrupedal <> biped bipedal
+closeness <> openness
+decentralize <> concentrate centralize
+minimal <> maximum maximal
+eyed <> eyeless
+nonexplosive <> explosive
+inadequate <> adequate
+separation <> union
+honorably <> dishonorably
+fall <> rise ascend
+dehumidify <> humidify
+lady <> nobleman
+face <> avoid back
+inoffensively <> offensively
+decontamination <> contamination
+infallible <> fallible
+altogether <> partly
+audibly <> inaudibly
+fright <> fearlessness
+decease <> birth
+forgiving <> unforgiving
+air <> land sea
+legally <> unlawfully
+discharge <> charge
+militarize <> demilitarize
+action <> inaction inactivity
+nonmetallic <> metallic
+unafraid <> afraid insecure
+sedate <> stimulate
+cerebral <> emotional
+chill <> heat
+reconcilable <> irreconcilable
+insanity <> sanity
+compromising <> uncompromising
+incommodious <> commodious
+defense <> offense
+cheap <> expensive
+loan <> borrow
+untimeliness <> timeliness
+absent <> present
+onstage <> offstage
+failing <> passing
+rounded <> angular
+weight <> unburden
+completely <> partly
+child <> parent
+ripeness <> greenness
+nonmember <> member
+fast <> slow
+loudness <> softness
+carnivorous <> herbivorous omnivorous insectivorous
+fortunately <> unluckily unfortunately
+latter <> former
+leader <> follower
+nontoxic <> toxic
+confine <> free
+jade <> refresh
+sell <> buy
+outpatient <> inpatient
+excusable <> inexcusable
+kickoff <> middle end
+underestimate <> overestimate overvalue
+drop-off <> increase
+eastern <> western
+alkaline <> acidic
+specialize <> diversify
+flex <> straighten unbend
+tastily <> tastelessly
+indistinctness <> sharpness distinctness
+conformation <> noncompliance nonconformity
+cross-eyed <> walleyed
+contemplative <> active
+opening <> closing
+nontechnical <> technical
+incoherent <> coherent
+recall <> forget issue
+convergence <> divergence
+junior <> senior
+yore <> future
+altruism <> egoism
+unrepentant <> repentant penitent
+worrisome <> reassuring
+graciously <> ungracefully ungraciously
+activator <> inhibitor
+sink <> float source
+improbably <> believably credibly
+deduct <> add
+disallow <> allow permit
+profitable <> unprofitable
+alfresco <> indoors inside
+whiteness <> black
+trained <> untrained
+heedless <> heedful
+unwrinkled <> furrowed wrinkled
+thinly <> thickly
+unenclosed <> enclosed
+step-up <> decrease
+unpredictable <> predictable
+unripe <> ripe
+zoology <> flora
+incomprehensibility <> comprehensibility
+inopportune <> opportune
+parental <> filial
+tranquilize <> agitate stimulate
+inconstant <> constant
+worn <> new
+roofed <> roofless
+compactness <> distribution
+worldly <> unworldly
+discourteously <> courteously politely
+multiply <> singly divide
+inexpensiveness <> expensiveness
+source <> sink
+unconquerable <> conquerable
+unwitting <> witting
+legibility <> illegibility
+unripened <> ripe
+correctly <> wrongly incorrectly
+unpleasantly <> pleasantly
+unsaturated <> saturated
+meagerly <> amply
+famish <> feed
+usefulness <> uselessness
+inadvisability <> advisability
+aquatic <> amphibious terrestrial
+unkindness <> kindness
+desensitize <> sensitize
+juicer <> nondrinker
+inability <> ability
+correct <> wrong incorrect
+many <> few
+last <> intermediate first
+adventurous <> unadventurous
+root <> descendant
+check <> disagree
+win <> lose
+superficiality <> profundity
+interrogative <> declaratory declarative
+inorganic <> organic
+invisible <> conspicuous visible
+here <> there
+unsure <> sure certain
+plebeian <> proletarian patrician
+disinclined <> inclined
+deceitfully <> honestly
+loud <> soft piano softly
+lighting <> dark
+tragedy <> comedy
+let <> disallow forbid
+nonfunctional <> functional
+selfish <> unselfish
+communicative <> uncommunicative
+easy <> quickly difficult uneasy
+all <> no some
+deduction <> addition
+infidelity <> faithfulness fidelity
+insatiable <> satiate
+antonymous <> antonymous synonymous
+unwariness <> wariness
+tolerably <> intolerably unacceptably
+concentrated <> soft unsaturated
+single <> multiple double common married
+ignoble <> noble
+partly <> wholly
+uncongenial <> congenial
+loveable <> hateful
+smoothness <> roughness
+farsighted <> nearsighted
+central <> peripheral
+simplicity <> difficulty complexity
+smallness <> bigness largeness
+commencement <> middle end
+ineptness <> suitableness suitability
+characteristic <> uncharacteristic
+partially <> wholly
+equity <> inequity unfairness
+acquiesce <> dissent
+ungracefully <> gracefully graciously
+bright <> dull
+hurry <> delay
+fittingly <> unsuitably inappropriately
+unenthusiastic <> enthusiastic
+segregated <> integrated
+uselessness <> usefulness utility
+construct <> misconception
+leaky <> tight
+multilateral <> unilateral
+tractable <> intractable
+chronic <> acute
+income <> outgo
+incompleteness <> completeness
+unconcern <> concern
+straddle <> side
+taxable <> nontaxable
+likable <> unsympathetic
+ineffectively <> effectively efficaciously
+abstruseness <> clarity
+invariability <> variability unevenness
+yield <> stand survive
+extinguishable <> inextinguishable
+prenatal <> postnatal
+inclined <> horizontal vertical
+consumptive <> generative
+broaden <> specialize
+rest <> change
+decelerate <> accelerate
+manipulable <> intractable
+lord <> noblewoman
+faithful <> unfaithful
+intelligibly <> unintelligibly
+diffidence <> confidence
+resistless <> resistible
+undress <> dress
+empirical <> theoretical
+illness <> wellness
+concentrate <> decentralize
+husband <> wife waste
+deject <> elate
+neutral <> positive negative
+midi <> maxi mini
+failure <> success achiever
+four-footed <> biped bipedal
+temperance <> intemperance
+arouse <> sedate
+warm <> cool
+permissive <> preventive
+wideness <> narrowness
+wealth <> poverty
+move <> stay refrain rest
+proletarian <> patrician plebeian
+unshaven <> shaven
+intransitively <> transitively
+consecrate <> desecrate
+unassertive <> assertive
+beneath <> above
+accordant <> discordant
+black-and-white <> color
+safe <> dangerous out
+far <> near
+fearlessness <> fear fearfulness
+incongruity <> congruity
+solubility <> insolubility
+rob <> undercharge
+tire <> interest refresh
+decent <> indecent improperly
+layperson <> clergyman
+strip <> dress
+unenlightened <> enlightened
+discontent <> contented
+resolute <> irresolute
+drowsiness <> wakefulness
+technical <> nontechnical
+continuation <> discontinuation discontinuance
+determinate <> indeterminate
+abidance <> noncompliance nonconformity
+laurels <> dishonor
+spotlight <> background
+corporeality <> immateriality
+blurriness <> distinctness sharpness
+lawful <> unlawful
+bloody <> bloodless
+implausibly <> believably credibly
+concise <> prolix
+sobriety <> drunkenness
+eyeless <> eyed
+pretentious <> unpretentious
+round <> square
+excommunicate <> communicate
+knot <> unravel
+minimize <> maximize
+moving <> still
+narrow <> diversify
+decorously <> indecorously
+also-ran <> winner
+expose <> cover
+enclosed <> unenclosed
+breathing <> breathless
+nonresidential <> residential
+horizontal <> vertical inclined
+little <> big large
+alterable <> unalterable
+tide <> ebb
+other <> same
+actively <> passively
+cut <> uncut expand untrimmed
+forward <> backward back
+civilian <> military serviceman
+ease <> difficulty
+brave <> cowardly
+penitent <> unrepentant impenitent
+hardness <> softness
+exaggerate <> understate
+ceremoniously <> unceremoniously
+inflation <> deflation disinflation
+analytical <> synthetic
+zip <> unzip
+concur <> disagree
+conquerable <> unconquerable
+regard <> inattentiveness disesteem disrespect
+hard <> voiced soft lightly easy
+zealot <> nonpartisan
+endogenous <> exogenous
+unprofessional <> professional
+unsurprising <> surprising
+pureness <> impurity
+unfinished <> finished
+legitimately <> illegitimately illicitly lawlessly
+multiple <> single
+long <> short
+unpack <> pack
+accurately <> inaccurately
+permanence <> impermanence
+enlist <> discharge

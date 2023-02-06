@@ -1,0 +1,8 @@
+(append str "Word is yours!")
+
+(set var 043)
+
+(if (less (- x 123f56) 0)
+    (print "less than")
+    (print "larger than")
+)

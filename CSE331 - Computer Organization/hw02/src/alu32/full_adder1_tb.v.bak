@@ -1,0 +1,34 @@
+`define DELAY 20
+
+module full_adder1_tb(); 
+	
+	reg A, B, Ci;
+	wire Y, Co;
+
+	
+	full_adder1(Y, Co, A, B, Ci);
+	
+	initial begin
+		a = 1'b0; b = 1'b0; Ci = 1'b0;
+		#`DELAY;
+		a = 1'b0; b = 1'b0; Ci = 1'b1;
+		#`DELAY;
+		a = 1'b0; b = 1'b1; Ci = 1'b0;
+		#`DELAY;
+		a = 1'b0; b = 1'b1; Ci = 1'b1;
+		#`DELAY;
+		a = 1'b1; b = 1'b0; Ci = 1'b0;
+		#`DELAY;
+		a = 1'b1; b = 1'b0; Ci = 1'b1;
+		#`DELAY;
+		a = 1'b1; b = 1'b1; Ci = 1'b0;
+		#`DELAY;
+		a = 1'b1; b = 1'b1; Ci = 1'b1;
+	end
+	 
+	 
+	initial begin
+		$monitor("time = %2d, A = %1b, B = %1b, carry-in = %1b, sum = %1b, carry-out = %1b", $time, A, B, Ci, Y, Co);
+	end
+ 
+endmodule

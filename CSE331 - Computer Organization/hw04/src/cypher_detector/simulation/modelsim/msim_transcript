@@ -1,0 +1,77 @@
+# Reading D:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do cypher_detector_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/18.1/workspace/cypher_detector {D:/intelFPGA_lite/18.1/workspace/cypher_detector/cypher_detector.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:59 on Jan 09,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/18.1/workspace/cypher_detector" D:/intelFPGA_lite/18.1/workspace/cypher_detector/cypher_detector.v 
+# -- Compiling module cypher_detector
+# 
+# Top level modules:
+# 	cypher_detector
+# End time: 22:48:59 on Jan 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/18.1/workspace/cypher_detector {D:/intelFPGA_lite/18.1/workspace/cypher_detector/control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:59 on Jan 09,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/18.1/workspace/cypher_detector" D:/intelFPGA_lite/18.1/workspace/cypher_detector/control.v 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 22:48:59 on Jan 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/18.1/workspace/cypher_detector {D:/intelFPGA_lite/18.1/workspace/cypher_detector/datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:59 on Jan 09,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/18.1/workspace/cypher_detector" D:/intelFPGA_lite/18.1/workspace/cypher_detector/datapath.v 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 22:48:59 on Jan 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/18.1/workspace/cypher_detector {D:/intelFPGA_lite/18.1/workspace/cypher_detector/cypher_detector_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:59 on Jan 09,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/18.1/workspace/cypher_detector" D:/intelFPGA_lite/18.1/workspace/cypher_detector/cypher_detector_tb.v 
+# -- Compiling module cypher_detector_tb
+# 
+# Top level modules:
+# 	cypher_detector_tb
+# End time: 22:48:59 on Jan 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  cypher_detector_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" cypher_detector_tb 
+# Start time: 22:49:00 on Jan 09,2023
+# Loading work.cypher_detector_tb
+# Loading work.cypher_detector
+# Loading work.datapath
+# Loading work.control
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ebylm  Hostname: EBY-MATEBOOK  ProcessID: 11948
+#           Attempting to use alternate WLF file "./wlft5sdixb".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5sdixb
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 22:49:44 on Jan 09,2023, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 2

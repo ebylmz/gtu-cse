@@ -1,0 +1,15 @@
+module add32(Y, C, A, B, S);
+	
+	output[31:0] Y;
+	output C;
+	input[31:0] A, B;
+	input S;
+	
+	wire[31:0] notB, BS;
+	
+	not32 g0(notB, B);
+	mux2to1 g1(BS, S, B, notB);
+	
+	full_adder32 g2(Y, C, A[3:0], B[3:0], S);
+
+endmodule

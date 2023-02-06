@@ -1,0 +1,65 @@
+module alu_16(
+	output [15:0] result,
+	output zero,
+	input clock,
+	input [15:0] a, 
+	input [15:0] b, 
+	input [2:0] alu_ctr);
+
+	wire not_alu_ctr2, not_alu_ctr0, en_sub, en_mult;
+	wire [15:0] wr_add, wr_and, wr_or, wr_slt, wr_srl, wr_sll;
+	wire [31:0] wr_mult;
+	wire t0, t1;
+	
+	not n0(not_alu_ctr2, alu_ctr[2]);
+	not n1(not_alu_ctr0, alu_ctr[0]);
+	
+	// en_sub = alu_ctr[2] | (~alu_ctr[2] & alu_ctr[0]);
+	and e1(t0, not_alu_ctr2, alu_ctr[0]);
+	or e2(en_sub, t0, alu_ctr[2]);
+	
+	// en_mult = ~alu_ctr2 & alu_ctr1 & ~alu_ctr0
+	and a0(t1, not_alu_ctr0, not_alu_ctr2);
+	and a1(en_mult, t1, alu_ctr[1]);
+	
+	wire co;
+	wire reset;
+	
+	add_16 _add_16(
+		.result(wr_add), 
+		.co(co), 
+		.a(a), 
+		.b(b), 
+		.ci(en_sub), 
+		.sub(en_sub));
+	
+	mult_16 _mult_16(
+		.multiplier(a), 
+		.multiplicand(b),
+		.clock(clock), 
+		.reset(~en_mult),
+		.product(wr_mult));
+	
+	// implement as structural
+	assign wr_slt = {15'b0, wr_add[15]};
+	assign zero = (wr_add == 16'b0);
+	assign wr_srl = a >> b;
+	assign wr_sll = a << b;
+	
+	and_16 _and_16 (wr_and, a, b);
+	or_16 _or_16 (wr_or, a, b);
+	
+	// ADD, SUB, MULT, AND, OR, SLT, SRL, SLL
+	mux8to1_16 _mux8to1_16(
+		.result(result), 
+		.sel(alu_ctr), 
+		.in0(wr_add), 
+		.in1(wr_add), 
+		.in2(wr_mult[15:0]), 
+		.in3(wr_and), 
+		.in4(wr_or), 
+		.in5(wr_slt), 
+		.in6(wr_srl), 
+		.in7(wr_sll));
+
+endmodule 

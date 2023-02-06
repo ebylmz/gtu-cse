@@ -1,0 +1,120 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# Date created = 19:39:35  January 13, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		mips_single_cycle_16_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CEBA4F23C7
+set_global_assignment -name TOP_LEVEL_ENTITY mips_single_cycle_16_tb
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:39:35  JANUARY 13, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH mips_single_cycle_16_tb -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME mips_single_cycle_16_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id mips_single_cycle_16_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME mips_single_cycle_16_tb -section_id mips_single_cycle_16_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME instr_mem_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id instr_mem_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME instr_mem_tb -section_id instr_mem_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME register_file_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id register_file_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME register_file_tb -section_id register_file_tb
+set_global_assignment -name VERILOG_FILE mips_single_cycle_16.v
+set_global_assignment -name VERILOG_FILE control_unit.v
+set_global_assignment -name VERILOG_FILE datapath.v
+set_global_assignment -name VERILOG_FILE register_file.v
+set_global_assignment -name VERILOG_FILE pc_next.v
+set_global_assignment -name VERILOG_FILE alu_16.v
+set_global_assignment -name VERILOG_FILE mult_16.v
+set_global_assignment -name VERILOG_FILE mult_16_control.v
+set_global_assignment -name VERILOG_FILE mult_16_datapath.v
+set_global_assignment -name VERILOG_FILE or_16.v
+set_global_assignment -name VERILOG_FILE mux8to1_16.v
+set_global_assignment -name VERILOG_FILE mux8to1.v
+set_global_assignment -name VERILOG_FILE mux2to1_16.v
+set_global_assignment -name VERILOG_FILE mux2to1.v
+set_global_assignment -name VERILOG_FILE add_16.v
+set_global_assignment -name VERILOG_FILE add_4.v
+set_global_assignment -name VERILOG_FILE add_1.v
+set_global_assignment -name VERILOG_FILE full_adder_1.v
+set_global_assignment -name VERILOG_FILE half_adder_1.v
+set_global_assignment -name VERILOG_FILE and_16.v
+set_global_assignment -name QIP_FILE instr_mem.qip
+set_global_assignment -name QIP_FILE data_mem.qip
+set_global_assignment -name QIP_FILE registers.qip
+set_global_assignment -name MIF_FILE mem/instr.mif
+set_global_assignment -name MIF_FILE mem/data.mif
+set_global_assignment -name MIF_FILE mem/reg_file.mif
+set_global_assignment -name VERILOG_FILE mips_single_cycle_16_tb.v
+set_global_assignment -name VERILOG_FILE instr_mem_tb.v
+set_global_assignment -name VERILOG_FILE register_file_tb.v
+set_global_assignment -name VERILOG_FILE mult_16_tb.v
+set_global_assignment -name VERILOG_FILE alu_16_tb.v
+set_global_assignment -name VERILOG_FILE data_mem_tb.v
+set_global_assignment -name EDA_TEST_BENCH_NAME data_mem_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id data_mem_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME data_mem_tb -section_id data_mem_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME alu_16_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id alu_16_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME alu_16_tb -section_id alu_16_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME mult_16_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id mult_16_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME mult_16_tb -section_id mult_16_tb
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE registers_tb.v
+set_global_assignment -name EDA_TEST_BENCH_NAME registers_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id registers_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME registers_tb -section_id registers_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE mips_single_cycle_16_tb.v -section_id mips_single_cycle_16_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE instr_mem_tb.v -section_id instr_mem_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE register_file_tb.v -section_id register_file_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE data_mem_tb.v -section_id data_mem_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE alu_16_tb.v -section_id alu_16_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE mult_16_tb.v -section_id mult_16_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE registers_tb.v -section_id registers_tb
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

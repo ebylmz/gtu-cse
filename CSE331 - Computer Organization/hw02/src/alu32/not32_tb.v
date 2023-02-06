@@ -1,0 +1,22 @@
+`define DELAY 20
+
+module not32_tb();
+
+	reg[31:0] A; 	
+	wire[31:0] Y;  
+
+	not32 t(Y, A);
+		
+	initial begin
+		A = 32'b1001_0000_0000_0000_0000_0000_0000_1010; 
+		#`DELAY;
+		
+		A = 32'b1111_0000_0000_0000_0000_1111_0000_1111;
+		#`DELAY $finish;
+	end
+	  
+	initial begin
+		$monitor("time = %4d, A = %32b, result = %32b", $time, A, Y);
+	end
+
+endmodule 
