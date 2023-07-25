@@ -56,7 +56,7 @@ Introduction to computer hardware by analyzing MIPS architecture
 - Memory & Cache
 
 ## [CSE341 - Programming Languages (5th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/CSE341%20-%20Programming%20Languages)
-Understanding the basic building blocks of programming languages. Defining a programming language with a context-free grammar and analyzing a programming language based on language evaluation criteria
+Understanding the basic building blocks of programming languages. Defining a programming language with context-free grammar and analyzing a programming language based on language evaluation criteria
 - Paradigms
     - Imperative
         - Procedural
@@ -76,7 +76,7 @@ Understanding the basic building blocks of programming languages. Defining a pro
 - OOP
 - Lisp & Prolog
 
-## [CSE312 - Operating-Systems (6th semester)]()
+## [CSE312 - Operating-Systems (6th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/CSE312%20-%20Operating-Systems)
 Introduction to the field of operating systems, providing both theoretical foundations and practical insights into the design and implementation of modern operating systems
   - Evolution of Operating Systems
   - Process and Thread Management
@@ -93,7 +93,7 @@ Introduction to the field of operating systems, providing both theoretical found
       - I/O subsystem design
   - Distributed Systems
 
-## [CSE344 - System-Programming (6th semester)]()
+## [CSE344 - System-Programming (6th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/CSE344%20-%20System-Programming)
 Developing low-level software that interacts with hardware, operating systems, and other system components to create efficient and reliable computer systems
   - Processes
   - Files and I/O
