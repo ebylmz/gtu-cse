@@ -1,5 +1,4 @@
 # 🎓 GTU-Assignments
-Gebze Technical University - Computer Engineering Studies & Assignments 
 
 ## Table of Contents
 - [Description](#description)
