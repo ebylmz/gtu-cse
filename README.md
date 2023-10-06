@@ -3,7 +3,6 @@
 ## Table of Contents
 - [Description](#description)
 - [Installation and Usage](#installation-and-usage)
-- [Contributing](#contributing)
 - [Courses](#courses)
 
 ## Description
