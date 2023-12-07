@@ -13,7 +13,7 @@ Instructions for setting up the environment and running the assignments can be f
 
 ## Courses
 
-### 🖥️ [CSE102 - Computer Programming (2nd semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/CSE102%20-%20Computer%20Programming)
+### 🖥️ [CSE102 - Computer Programming (2nd semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/cse102-computer-programming)
 Introduction to programming with C language
 - Functions
 - Repetition
@@ -27,14 +27,14 @@ Introduction to programming with C language
 - Dynamic Data Structures
 - Files
 
-### 🧬 [CSE241 - Object Oriented Programming (3rd semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/CSE241%20-%20Object%20Oriented%20Programming)
+### 🧬 [CSE241 - Object Oriented Programming (3rd semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/cse241-object-oriented-programming)
 OOP concepts using C++ and Java languages
 - Inheritance
 - Polymorphism
 - Encapsulation
 - Abstraction
 
-### 📊 [CSE222 - Data Structures and Algorithms (4th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/CSE222%20-%20Data%20Structures%20and%20Algorithms)
+### 📊 [CSE222 - Data Structures and Algorithms (4th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/cse222-data-structures-and-algorithms)
 Fundamental data structures and algorithms with Java language
 - Arrays
 - Lists
@@ -45,7 +45,7 @@ Fundamental data structures and algorithms with Java language
 - Maps
 - Sorting Algorithms
 
-### 📜 [CSE321 - Introduction to Algorithm Design (5th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/CSE321%20-%20Introduction%20to%20Algorithm%20Design)
+### 📜 [CSE321 - Introduction to Algorithm Design (5th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/cse321-introduction-to-algorithm-design)
 Designing and analyzing algorithms with different techniques
 - Asymptotic Notation & Algorithm Analysis
 - Brute Force
@@ -55,7 +55,7 @@ Designing and analyzing algorithms with different techniques
 - Dynamic Programming
 - Greedy 
 
-### 🏢 [CSE331 - Computer Organization (5th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/CSE331%20-%20Computer%20Organization)
+### 🏢 [CSE331 - Computer Organization (5th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/cse331-computer-organization)
 Introduction to computer hardware by analyzing MIPS architecture
 - Computer Performance
 - MIPS Instruction Set Architecture
@@ -67,7 +67,7 @@ Introduction to computer hardware by analyzing MIPS architecture
 - Pipelined MIPS Datapath and Control
 - Memory & Cache
 
-### 📚 [CSE341 - Programming Languages (5th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/CSE341%20-%20Programming%20Languages)
+### 📚 [CSE341 - Programming Languages (5th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/cse341-programming-languages)
 Understanding the basic building blocks of programming languages. Defining a programming language with context-free grammar and analyzing a programming language based on language evaluation criteria
 - Paradigms
     - Imperative
@@ -88,7 +88,7 @@ Understanding the basic building blocks of programming languages. Defining a pro
 - OOP
 - Lisp & Prolog
 
-### 💽 [CSE312 - Operating-Systems (6th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/CSE312%20-%20Operating-Systems)
+### 💽 [CSE312 - Operating Systems (6th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/cse312-operating-systems)
 Introduction to the field of operating systems, providing both theoretical foundations and practical insights into the design and implementation of modern operating systems
 - Evolution of Operating Systems
 - Process and Thread Management
@@ -105,7 +105,7 @@ Introduction to the field of operating systems, providing both theoretical found
     - I/O subsystem design
 - Distributed Systems
 
-### ⚙️ [CSE344 - System-Programming (6th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/CSE344%20-%20System-Programming)
+### ⚙️ [CSE344 - System Programming (6th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/cse344-system-programming)
 Developing low-level software that interacts with hardware, operating systems, and other system components to create efficient and reliable computer systems
 - Processes
 - Files and I/O
