@@ -1,0 +1,5 @@
+.venv
+.ipynb_checkpoints
+build
+data
+__pycache__

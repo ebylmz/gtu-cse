@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+version = "0.0.1"
+name = "ngram"
+description = "N-gram"
+requires-python = ">=3.7"
+keywords = ["ngram"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "nltk",
+    "syllable @ git+https://github.com/ftkurt/python-syllable.git"
+]
+
+[project.optional-dependencies]
+test = [
+    "pre-commit",
+]
+
+[tool.hatch.envs.default]
+features = [
+    "test",
+]
+
+post-install-commands = [
+    "pre-commit install",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.envs.default.scripts]
+fmt = [
+    "pre-commit run --all --all-files",
+]
