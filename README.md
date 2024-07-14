@@ -1,123 +1,43 @@
-# 🎓 GTU-Assignments
+# 🎓 GTU Computer Engineering
 
 ## Table of Contents
 - [Description](#description)
 - [Installation and Usage](#installation-and-usage)
-- [Courses](#courses)
+- [Courses by Semester](#courses-by-semester)
 
 ## Description
-This repository contains assignments from various computer engineering courses at Gebze Technical University. Each course directory includes assignments, code samples, and relevant materials.
+Welcome to the repository for assignments and projects from various computer engineering courses at Gebze Technical University (GTU). Each course directory includes assignments, code samples, and relevant materials.
 
 ## Installation and Usage
-Instructions for setting up the environment and running the assignments can be found in each course's respective directory. Make sure you have the required software and dependencies installed.
+For instructions on setting up the environment and running the assignments, refer to each course's respective directory. Ensure that you have the required software and dependencies installed.
 
-## Courses
+## Courses by Semester
 
-### 🖥️ [CSE102 - Computer Programming (2nd semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/cse102-computer-programming)
-Introduction to programming with C language
-- Functions
-- Repetition
-- Selection
-- Modular Programming
-- Simple Data Types
-- Arrays
-- Strings & Pointers
-- Recursion
-- Structures & Unions
-- Dynamic Data Structures
-- Files
+### 2nd Semester
+- 🖥️ [CSE102 - Computer Programming](https://github.com/ebylmz/gtu-cse/tree/main/cse102-computer-programming)
+- 🖥️ [CSE108 - Computer Programming Laboratory](https://github.com/ebylmz/gtu-cse/tree/main/cse108-computer-programming-lab)
 
-### 🧬 [CSE241 - Object Oriented Programming (3rd semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/cse241-object-oriented-programming)
-OOP concepts using C++ and Java languages
-- Inheritance
-- Polymorphism
-- Encapsulation
-- Abstraction
+### 3rd Semester
+- 🧬 [CSE241 - Object Oriented Programming](https://github.com/ebylmz/gtu-cse/tree/main/cse241-object-oriented-programming)
 
-### 📊 [CSE222 - Data Structures and Algorithms (4th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/cse222-data-structures-and-algorithms)
-Fundamental data structures and algorithms with Java language
-- Arrays
-- Lists
-- Stack & Queue
-- Sets
-- Trees
-- Graphs
-- Maps
-- Sorting Algorithms
+### 4th Semester
+- 📊 [CSE222 - Data Structures and Algorithms](https://github.com/ebylmz/gtu-cse/tree/main/cse222-data-structures-and-algorithms)
 
-### 📜 [CSE321 - Introduction to Algorithm Design (5th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/cse321-introduction-to-algorithm-design)
-Designing and analyzing algorithms with different techniques
-- Asymptotic Notation & Algorithm Analysis
-- Brute Force
-- Exhaustive Search 
-- Divide and Conquer
-- Decrease and Conquer
-- Dynamic Programming
-- Greedy 
+### 5th Semester
+- 📜 [CSE321 - Introduction to Algorithm Design](https://github.com/ebylmz/gtu-cse/tree/main/cse321-introduction-to-algorithm-design)
+- 🏢 [CSE331 - Computer Organization](https://github.com/ebylmz/gtu-cse/tree/main/cse331-computer-organization)
+- 📚 [CSE341 - Programming Languages](https://github.com/ebylmz/gtu-cse/tree/main/cse341-programming-languages)
 
-### 🏢 [CSE331 - Computer Organization (5th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/cse331-computer-organization)
-Introduction to computer hardware by analyzing MIPS architecture
-- Computer Performance
-- MIPS Instruction Set Architecture
-- MIPS Assembly
-- Computer Arithmetic
-- Single Cycle MIPS Datapath and Control
-- Multi-Cycle CPU
-- Pipelining
-- Pipelined MIPS Datapath and Control
-- Memory & Cache
+### 6th Semester
+- 💽 [CSE312 - Operating Systems](https://github.com/ebylmz/gtu-cse/tree/main/cse312-operating-systems)
+- ⚙️ [CSE344 - System Programming](https://github.com/ebylmz/gtu-cse/tree/main/cse344-system-programming)
 
-### 📚 [CSE341 - Programming Languages (5th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/cse341-programming-languages)
-Understanding the basic building blocks of programming languages. Defining a programming language with context-free grammar and analyzing a programming language based on language evaluation criteria
-- Paradigms
-    - Imperative
-        - Procedural
-        - OOP
-    - Declarative
-        - Logic
-        - Functional
-        - Mathematical
-- Syntax & Semantics
-    - Context Free Grammars & Backus-Nour Form
-- Variables
-- Data Types
-- Expressions
-- Exceptions
-- Procedures
-- ADT
-- OOP
-- Lisp & Prolog
+### 7th Semester
+- 📚 [CSE484 - Introduction to Natural Language Processing](https://github.com/ebylmz/gtu-cse/tree/main/cse484-natural-language-processing)
+- 🕶️ [CSE462 - Applied Augmented Reality and 3D User Interfaces](https://github.com/ebylmz/gtu-cse/tree/main/cse462-augmented-reality)
+- 🎓 [CSE495 - Graduation Project](https://github.com/ebylmz/gtu-cse/tree/main/cse495-graduation-project-1)
 
-### 💽 [CSE312 - Operating Systems (6th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/cse312-operating-systems)
-Introduction to the field of operating systems, providing both theoretical foundations and practical insights into the design and implementation of modern operating systems
-- Evolution of Operating Systems
-- Process and Thread Management
-- Memory Management
-    - Memory Hierarchies
-    - Virtual Memory
-    - Paging
-    - Segmentation
-    - Memory Allocation 
-- File Systems
-- Input/Output Systems
-    - Device Drivers
-    - Interrupts
-    - I/O subsystem design
-- Distributed Systems
-
-### ⚙️ [CSE344 - System Programming (6th semester)](https://github.com/ebylmz/GTU-Assignments/tree/main/cse344-system-programming)
-Developing low-level software that interacts with hardware, operating systems, and other system components to create efficient and reliable computer systems
-- Processes
-- Files and I/O
-- Signals
-- Inter-Process Communication (IPC)
-    - Pipes
-    - FIFO
-- Synchronization between Processes
-    - Semaphores
-    - Shared Memory
-- POSIX Threads
-- Synchronization between Threads
-    - Mutexes
-    - Condition Variables
-- Socket Programming
+### 8th Semester
+- 🤖 [CSE455 - Machine Learning](https://github.com/ebylmz/gtu-cse/tree/main/cse455-machine-learning)
+- 👁️ [CSE463 - Introduction to Computer Vision](https://github.com/ebylmz/gtu-cse/tree/main/cse463-computer-vision)
+- 🎓 [CSE495 - Graduation Project](https://github.com/ebylmz/gtu-cse/tree/main/cse495-graduation-project-2)
