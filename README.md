@@ -35,9 +35,9 @@ For instructions on setting up the environment and running the assignments, refe
 ### 7th Semester
 - 📚 [CSE484 - Introduction to Natural Language Processing](https://github.com/ebylmz/gtu-cse/tree/main/cse484-natural-language-processing)
 - 🕶️ [CSE462 - Applied Augmented Reality and 3D User Interfaces](https://github.com/ebylmz/gtu-cse/tree/main/cse462-augmented-reality)
-- 🎓 [CSE495 - Graduation Project](https://github.com/ebylmz/gtu-cse/tree/main/cse495-graduation-project-1)
+- 🎓 [CSE495 - Graduation Project 1](https://github.com/ebylmz/gtu-cse/tree/main/cse495-graduation-project-1)
 
 ### 8th Semester
 - 🤖 [CSE455 - Machine Learning](https://github.com/ebylmz/gtu-cse/tree/main/cse455-machine-learning)
 - 👁️ [CSE463 - Introduction to Computer Vision](https://github.com/ebylmz/gtu-cse/tree/main/cse463-computer-vision)
-- 🎓 [CSE495 - Graduation Project](https://github.com/ebylmz/gtu-cse/tree/main/cse496-graduation-project-2)
+- 🎓 [CSE496 - Graduation Project 2](https://github.com/ebylmz/gtu-cse/tree/main/cse496-graduation-project-2)
