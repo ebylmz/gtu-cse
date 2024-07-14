@@ -40,4 +40,4 @@ For instructions on setting up the environment and running the assignments, refe
 ### 8th Semester
 - 🤖 [CSE455 - Machine Learning](https://github.com/ebylmz/gtu-cse/tree/main/cse455-machine-learning)
 - 👁️ [CSE463 - Introduction to Computer Vision](https://github.com/ebylmz/gtu-cse/tree/main/cse463-computer-vision)
-- 🎓 [CSE495 - Graduation Project](https://github.com/ebylmz/gtu-cse/tree/main/cse495-graduation-project-2)
+- 🎓 [CSE495 - Graduation Project](https://github.com/ebylmz/gtu-cse/tree/main/cse496-graduation-project-2)
